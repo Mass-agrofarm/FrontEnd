@@ -9,7 +9,9 @@ const Navigation = () => {
   return (
     <NavBar>
         <InnerContainer>
-            Logo
+            <Link to="/">
+              Logo
+            </Link>
         </InnerContainer>
         <InnerContainer>
             <Link to="/">Home</Link>
