@@ -1,10 +1,11 @@
 // Dependancies
-import './App.css'
+import './App.css';
+import { React } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import { OuterContainer } from './Components/StyledComponents/StyledComponents';
 
 // components
-import Navigation from './Components/Navigation/Navigation';
+import Navigation from './Components/Navigation';
 
 // Pages
 import Home from './Pages/Home';

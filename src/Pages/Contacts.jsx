@@ -2,9 +2,12 @@ import React from 'react'
 
 function Contacts (){
   return (
-    <div>
-      <h1>Contact Page</h1>
-    </div>
+    <>
+      <h1>Let us know how we can reach you.</h1>
+      <form>customer details</form>
+      <testimonials>customer satisfaction and rating.</testimonials>
+      <faq></faq>
+    </>
   )
 }
 

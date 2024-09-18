@@ -12,7 +12,7 @@ const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-image:linear-gradient(to right, #000000ff, #000000ff, #00000083, #00000083);
     color: #fff;
     padding: 1rem;
     position: fixed;
@@ -50,11 +50,10 @@ export const InnerContainer = styled.div`
     justify-content: space-between;
 `
 
-
-//! div's.
-
-
-
+//* container
+export const ShapeContainer = styled.div`
+    margin: 0px 50px 30px 50px;
+`
 
 
 
