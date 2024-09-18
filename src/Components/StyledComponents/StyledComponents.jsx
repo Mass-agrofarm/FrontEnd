@@ -20,6 +20,7 @@ const Nav = styled.nav`
     left: 0;
     width: 100%;
     z-index: 1000;
+    border-bottom: 1px solid antiquewhite;
 `
 export const NavBar = ({children}) => (
     <Nav>
