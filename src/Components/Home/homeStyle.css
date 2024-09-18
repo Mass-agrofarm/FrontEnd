@@ -1,0 +1,33 @@
+.hero-img{
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-cta-button{
+  background-color: whitesmoke;
+  color: black;
+}
+.hero-cta-button :hover{
+  background-color: antiquewhite;
+  color: silver;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: transparent;
+  background-image: linear-gradient(300deg, #00000000 1%, #000000 75%);
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.hero-text{
+  width: 423px;
+  justify-content: justify;
+  padding: 2px 0px 2px 26px;
+}
+
+.hero-heading{
+  margin-bottom: 15px;
+}
