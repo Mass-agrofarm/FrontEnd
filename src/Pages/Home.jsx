@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 
 //components
 import Hero from '../Components/Home/Hero';
-import Footer from '../Components/Footer';
 import ProductCards from '../Components/ProductComponents/ProductCards';
 import { ProductCardsContainer } from './Products';
 import { FlexDiv } from '../Components/StyledComponents/StyledComponents';
@@ -70,8 +69,6 @@ function Home () {
       </section>
       {/* ! end Main sections */}
 
-      {/* ! Footer */}
-      <Footer />
     </>
   )
 }
