@@ -34,12 +34,6 @@ export const NavBar = ({children}) => (
 export const OuterContainer = styled.div`
     margin: 0;
     padding: 0;
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #c4c4c4;
 `
 
 export const InnerContainer = styled.div`
@@ -53,8 +47,13 @@ export const InnerContainer = styled.div`
 
 //* container
 export const ShapeContainer = styled.div`
-    margin: 0px 50px 30px 50px;
+    margin: 0px 96px 30px 96px;
+    display: flex;
+    flex-wrap: wrap;
 `
 
 
+export const FlexDiv = styled.div`
+    display: flex;
+`
 
