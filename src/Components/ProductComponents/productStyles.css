@@ -1,4 +1,4 @@
-.img{
+.product-img{
     width: 353px;
     height: 252px;
     border-radius: 15px 15px 0px 0px;
@@ -6,4 +6,31 @@
     -moz-border-radius: 15px 15px 0px 0px;
     -ms-border-radius: 15px 15px 0px 0px;
     -o-border-radius: 15px 15px 0px 0px;
+}
+
+
+.product-card{
+    width: 355px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.product-bottom{
+    padding:0px 0px 15px 15px;
+    justify-content: justify;
+}
+
+.product-button {
+    margin: 0px 0px 0px 0px;
+    padding: 8px 44.16px;
+    background-color: silver;
+}
+
+.product-enquire-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
