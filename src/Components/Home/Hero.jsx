@@ -11,7 +11,7 @@ function Hero (){
       <section style={{ backgroundColor: 'silver',height: '100vh'}}>
         <div className='overlay'></div>
         <img className='hero-img' src="https://www.tractorgiants.com/wp-content/uploads/2024/02/DSC03826_HDR-scaled-1.jpg" alt="tractors carousel" />
-        <div style={{ position: 'absolute', left: '30px', bottom: '30px' }}>
+        <div style={{ position: 'absolute', left: '30px', bottom: '30px'}}>
             <h1 className="hero-heading">Mass Agro Farm</h1>
             <p className="hero-text">
                 Discover new ways to enhance your business with our innovative solutions. We help you drive growth and reach new heights.

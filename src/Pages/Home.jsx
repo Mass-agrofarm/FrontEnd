@@ -5,26 +5,73 @@ import { Link } from 'react-router-dom';
 
 //components
 import Hero from '../Components/Home/Hero';
+import Footer from '../Components/Footer';
+import ProductCards from '../Components/ProductComponents/ProductCards';
+import { ProductCardsContainer } from './Products';
+import { FlexDiv } from '../Components/StyledComponents/StyledComponents';
 
 function Home () {
   return (
     <>
+      {/* ! Hero */}
       <Hero />
-      <section style={{ height: '100vh', padding: '0px 96px' }}>
-        <main>
-          <h1>Home</h1>
-          Include the CTA
-        </main>
+
+      {/* ! Main sections */}
+      <section style={{ height: '80vh', padding: '0px 96px', marginTop: '96.16px' }}>
+        <FlexDiv>
+          <div style={{ flexDirection: 'flex-start', paddingRight: '90px', alignItems: 'center' }}>
+            <h1>About us</h1>
+            <p style={{ width: '450px', marginBottom: '60px' }}>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque dignissimos doloremque dicta officia a adipisci rerum natus voluptas sequi impedit necessitatibus aut neque eveniet dolore numquam culpa, tempore repudiandae ullam.
+            </p>
+            <Link style={{ backgroundColor: 'whitesmoke', padding: '8px 44.16px', borderRadius: '15px'}} to='/about'>More About us</Link>
+          </div>
+          <div style={{ flexDirection: 'flex-end'}}>
+            <img style={{ width: '100%', borderRadius: '15px'}} src="/public/pexels-nicolasveithen-1719669.jpg"/>
+          </div>
+          <br style={{ border: '1px solid #ccc' }}></br>
+        </FlexDiv>
       </section>
 
-      <section>
-        <featured>3 - 4 featured, best sellers,</featured>
-        <Link to="/products">See more...</Link>
+
+      {/* ! divider */}
+      <FlexDiv style={{justifyContent: 'center'}}>
+        <div style={{width: '852px', border: '1px solid #ccc'}}></div>
+      </FlexDiv>
+
+      <section style={{ height: '100vh', marginBottom: '126px'}}>
+        <FlexDiv style={{justifyContent: 'center'}}>
+          <h1>Featured Products</h1>
+        </FlexDiv>
+        <ProductCardsContainer>
+          <ProductCards/>
+          <ProductCards/>
+          <ProductCards/>
+        </ProductCardsContainer>
+        <FlexDiv style={{justifyContent: 'center'}}>
+          <Link style={{ backgroundColor: 'whitesmoke', padding: '8px 44.16px', borderRadius: '15px'}}to="/products">See more...</Link>
+        </FlexDiv>
       </section>
 
-      <section>
-        <div>product rating and customer story.</div>
+      {/* ! divider */}
+      <FlexDiv style={{justifyContent: 'center'}}>
+        <div style={{width: '852px', border: '1px solid #ccc'}}></div>
+      </FlexDiv>
+
+      <section style={{ height: '100vh'}}>
+        <FlexDiv style={{ justifyContent: 'center' }}>
+          <h1>Hear From Our Customers</h1>
+        </FlexDiv>
+        <FlexDiv>
+          <div>
+            <p>product rating and customer story.</p>
+          </div>
+        </FlexDiv>
       </section>
+      {/* ! end Main sections */}
+
+      {/* ! Footer */}
+      <Footer />
     </>
   )
 }
