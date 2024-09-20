@@ -18,14 +18,14 @@ function Home () {
       {/* ! Main sections */}
       <section style={{ height: '80vh', padding: '0px 96px', marginTop: '96.16px' }}>
         <FlexDiv>
-          <div style={{ flexDirection: 'flex-start', paddingRight: '90px', alignItems: 'center' }}>
+          <div style={{ alignContent: 'flex-start', paddingRight: '90px', alignItems: 'center' }}>
             <h1>About us</h1>
             <p style={{ width: '450px', marginBottom: '60px' }}>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque dignissimos doloremque dicta officia a adipisci rerum natus voluptas sequi impedit necessitatibus aut neque eveniet dolore numquam culpa, tempore repudiandae ullam.
             </p>
             <Link style={{ backgroundColor: 'whitesmoke', padding: '8px 44.16px', borderRadius: '15px'}} to='/about'>More About us</Link>
           </div>
-          <div style={{ flexDirection: 'flex-end'}}>
+          <div style={{ alignContent: 'flex-end'}}>
             <img style={{ width: '100%', borderRadius: '15px'}} src="/public/pexels-nicolasveithen-1719669.jpg"/>
           </div>
           <br style={{ border: '1px solid #ccc' }}></br>
@@ -59,12 +59,10 @@ function Home () {
 
       <section style={{ height: '100vh'}}>
         <FlexDiv style={{ justifyContent: 'center' }}>
-          <h1>Hear From Our Customers</h1>
+          <h1>Testimonials From Our Customers</h1>
         </FlexDiv>
         <FlexDiv>
-          <div>
-            <p>product rating and customer story.</p>
-          </div>
+          
         </FlexDiv>
       </section>
       {/* ! end Main sections */}
