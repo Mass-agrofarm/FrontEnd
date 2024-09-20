@@ -12,7 +12,8 @@ const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image:linear-gradient(to right, #000000ff, #000000ff, #00000083, #00000083);
+    background-image:linear-gradient(to right, #000000ff, #000000ff, #737373, #ACACAD);
+    background-blend-mode: color-burn;
     color: #fff;
     padding: 1rem;
     position: fixed;
