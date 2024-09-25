@@ -1,15 +1,21 @@
-import React from 'react'
-import { FlexDiv, OuterContainer } from '../Components/StyledComponents/StyledComponents'
+import { FlexDiv } from '../Components/StyledComponents/StyledComponents'
 
 function Contacts (){
   return (
     <>
-      <FlexDiv>
-        <h1>Let us know how we can reach you.</h1>
-        <form>customer details</form>
-        <testimonials>customer satisfaction and rating.</testimonials>
-        <faq></faq>
-      </FlexDiv>
+      <section>
+        <FlexDiv style={{ justifyContent: 'center' }}>
+          <h1>Contact Us</h1>
+        </FlexDiv>
+        <FlexDiv>
+          <p>
+            <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+            <a href="http://">+3397449797</a>
+          </p>
+        </FlexDiv>
+        <FlexDiv>customer satisfaction and rating.</FlexDiv>
+        <footer>FAQ</footer>
+      </section>
     </>
   )
 }

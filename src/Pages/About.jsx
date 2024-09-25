@@ -1,10 +1,12 @@
-import React from 'react'
+import { FlexDiv } from "../Components/StyledComponents/StyledComponents"
 
 function About () {
   return (
-    <div>
-      <h1>About Page</h1>
-    </div>
+    <>
+      <FlexDiv style={{ justifyContent: 'center' }}>
+        <h1>About Page</h1>
+      </FlexDiv>
+    </>
   )
 }
 
