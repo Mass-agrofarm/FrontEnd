@@ -3,13 +3,20 @@
 import React, { Suspense, useState } from 'react';
 import styled from 'styled-components';
 
-//components
+
+//* components
 import ProductCards from '../Components/ProductComponents/ProductCards';
+import { FlexDiv } from '../Components/StyledComponents/StyledComponents';
+import CustomerReviews from '../Components/CustomerReviews';
 
-// custom components
+
+
+//* custom components
 import { ShapeContainer } from '../Components/StyledComponents/StyledComponents';
+import Divider from '../Components/Divider';
 
-// Custom styled components.
+
+//* Custom styled components.
 export const ProductCardsContainer = styled(ShapeContainer)`
     /* products container gap */
     gap: 1.5em;
@@ -29,8 +36,11 @@ function Products () {
 
   return (
     <>
-      <h1 style={{ paddingLeft: '50px'}}>Our Products</h1>
+      <FlexDiv style={{ justifyContent: 'center' }}>
+        <h1>Our Products</h1>
+      </FlexDiv>
       <ProductCardsContainer>
+        {/* Remember to remove the extra cards, delete all except one ProductCards components. */}
           <ProductCards />
           <ProductCards />
           <ProductCards />
@@ -44,6 +54,23 @@ function Products () {
           <ProductCards />
           <ProductCards />
       </ProductCardsContainer>
+
+      {/* Divider */}
+      <div style={{ marginTop: '50px' }}>
+        <Divider />
+      </div>
+      
+      <section style={{ display: 'flex', flex: '1', flexDirection: 'column'}}>
+        <FlexDiv style={{ justifyContent: 'center' }}>
+          <h1>Customer Reviews</h1>
+        </FlexDiv>
+        <FlexDiv style={{ justifyContent: 'center', gap: '20px', marginBottom: '50px'}}>
+            {/** Customer review cards */}
+            <CustomerReviews />
+            <CustomerReviews />
+            <CustomerReviews />
+        </FlexDiv>
+      </section>
     </>
   )
 }

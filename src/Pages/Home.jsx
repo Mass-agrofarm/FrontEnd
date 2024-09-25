@@ -8,6 +8,11 @@ import Hero from '../Components/Home/Hero';
 import ProductCards from '../Components/ProductComponents/ProductCards';
 import { ProductCardsContainer } from './Products';
 import { FlexDiv } from '../Components/StyledComponents/StyledComponents';
+import CustomerReviews from '../Components/CustomerReviews';
+import Divider from '../Components/Divider';
+
+
+
 
 function Home () {
   return (
@@ -34,9 +39,7 @@ function Home () {
 
 
       {/* ! divider */}
-      <FlexDiv style={{justifyContent: 'center'}}>
-        <div style={{width: '852px', border: '1px solid #ccc'}}></div>
-      </FlexDiv>
+      <Divider />
 
       <section style={{ height: '100vh', marginBottom: '126px'}}>
         <FlexDiv style={{justifyContent: 'center'}}>
@@ -53,16 +56,17 @@ function Home () {
       </section>
 
       {/* ! divider */}
-      <FlexDiv style={{justifyContent: 'center'}}>
-        <div style={{width: '852px', border: '1px solid #ccc'}}></div>
-      </FlexDiv>
+      <Divider />
 
-      <section style={{ height: '100vh'}}>
+      <section style={{ height: '90vh'}}>
         <FlexDiv style={{ justifyContent: 'center' }}>
           <h1>Testimonials From Our Customers</h1>
         </FlexDiv>
-        <FlexDiv>
-          
+        <FlexDiv style={{ justifyContent: 'center', gap: '20px' }}>
+          {/** Customer review cards */}
+          <CustomerReviews/>
+          <CustomerReviews/>
+          <CustomerReviews/>
         </FlexDiv>
       </section>
       {/* ! end Main sections */}
