@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable no-undef */
 import styled from 'styled-components'
 
 
@@ -13,7 +12,7 @@ const Nav = styled.nav`
     justify-content: space-between;
     align-items: center;
     background-image:linear-gradient(to right, #000000ff, #000000ff, #737373, #ACACAD);
-    background-blend-mode: color-burn;
+    background-blend-mode: color-dodge;
     color: #fff;
     padding: 1rem;
     position: fixed;
@@ -58,3 +57,16 @@ export const FlexDiv = styled.div`
     display: flex;
 `
 
+
+// //* Card containers - customer reviews.
+// export const Container = styled(FlexDiv)`
+//     width: 300px;
+// `
+
+// export const CardContainer = ({children}) => (
+//   <Container>
+//       {children}
+//   </Container>
+// )
+//
+//
