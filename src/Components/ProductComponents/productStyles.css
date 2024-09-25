@@ -17,6 +17,15 @@
     border-radius: 15px;
 }
 
+.product-name{
+    padding-left: 5px;
+    margin: 0px auto;
+}
+
+.product-description{
+    margin: 5px auto;
+}
+
 .product-bottom{
     padding:0px 0px 15px 15px;
     justify-content: justify;
@@ -26,6 +35,18 @@
     margin: 0px 0px 0px 0px;
     padding: 8px 44.16px;
     background-color: silver;
+    transition: all 0.04s ease-in-out;
+    -webkit-transition: all 0.04s ease-in-out;
+    -moz-transition: all 0.04s ease-in-out;
+    -ms-transition: all 0.04s ease-in-out;
+    -o-transition: all 0.04s ease-in-out;
+}
+
+.product-button:hover {
+    scale: 1.05;
+    color: aliceblue;
+    background-color: rgb(145, 145, 145);
+    letter-spacing: 0.6px;
 }
 
 .product-enquire-button{
