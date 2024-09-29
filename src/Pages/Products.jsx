@@ -6,13 +6,13 @@ import styled from 'styled-components';
 
 //* components
 import ProductCards from '../Components/ProductComponents/ProductCards';
-import { FlexDiv } from '../Components/StyledComponents/StyledComponents';
+import { FlexDiv } from '../Components/StyledComponents/StyledContainers';
 import CustomerReviews from '../Components/CustomerReviews';
 
 
 
 //* custom components
-import { ShapeContainer } from '../Components/StyledComponents/StyledComponents';
+import { ShapeContainer } from '../Components/StyledComponents/StyledContainers';
 import Divider from '../Components/Divider';
 
 

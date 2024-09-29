@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import Hero from '../Components/Home/Hero';
 import ProductCards from '../Components/ProductComponents/ProductCards';
 import { ProductCardsContainer } from './Products';
-import { FlexDiv } from '../Components/StyledComponents/StyledComponents';
+import { FlexDiv } from '../Components/StyledComponents/StyledContainers';
 import CustomerReviews from '../Components/CustomerReviews';
 import Divider from '../Components/Divider';
 
@@ -46,6 +46,9 @@ function Home () {
           <h1>Featured Products</h1>
         </FlexDiv>
         <ProductCardsContainer>
+
+          {/* Remember to delete cards except for one. */}
+
           <ProductCards/>
           <ProductCards/>
           <ProductCards/>

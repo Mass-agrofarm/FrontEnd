@@ -1,4 +1,4 @@
-import { FlexDiv } from '../Components/StyledComponents/StyledComponents'
+import { FlexDiv } from '../Components/StyledComponents/StyledContainers';
 
 function Contacts (){
   return (
