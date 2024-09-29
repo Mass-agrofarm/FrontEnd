@@ -1,5 +1,5 @@
 // Components
-import { FlexDiv } from './StyledComponents/StyledComponents'
+import { FlexDiv } from './StyledComponents/StyledContainers'
 
 
 function Divider (){

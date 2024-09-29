@@ -4,7 +4,7 @@
 import { styled } from 'styled-components';
 
 // Components
-import { FlexDiv } from './StyledComponents/StyledComponents';
+import { FlexDiv } from './StyledComponents/StyledContainers';
 
 
 const Container = styled(FlexDiv)`
