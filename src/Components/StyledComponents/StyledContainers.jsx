@@ -6,7 +6,6 @@ import styled from 'styled-components'
 //* Navigation
 
 const Nav = styled.nav`
-    position: sticky;
     margin: 0;
     display: flex;
     justify-content: space-between;

@@ -22,7 +22,6 @@ a {
 a:hover {
   color: #0303f7;
   font-weight: 800;
-  border-bottom: 1px solid #0303f7;
 }
 
 body {
@@ -81,4 +80,8 @@ button:focus-visible {
 
 progress{
   display: none;
+}
+
+ol > li + li {
+  margin-bottom: 5px;
 }
