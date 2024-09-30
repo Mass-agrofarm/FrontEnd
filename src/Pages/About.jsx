@@ -1,6 +1,5 @@
 import Divider from "../Components/Divider";
 import { FlexDiv } from "../Components/StyledComponents/StyledContainers";
-import truck from '../../public/kisspng-jcb-backhoe-loader-heavy-machinery-bulldozer-5b0849998b5248.6003143515272697855707-1024x595.png'
 
 
 function About () {
