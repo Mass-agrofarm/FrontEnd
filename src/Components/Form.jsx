@@ -1,4 +1,4 @@
-import { NameFields, ContactFields } from './Contact/ContactStyledContainers'
+import { NameFields, ContactFields } from './Contact/styledContainers'
 
 const Form = () => {
   return (
