@@ -3,6 +3,7 @@ import { NameFields, ContactFields, TextField } from './Contact/styledContainers
 const Form = () => {
   return (
     <>
+    {/* Todo: add state management and send email after hitting send -> (change btn to a link) */}
       <form style={{ width: '100%' }}>
 
         <div>
@@ -29,6 +30,8 @@ const Form = () => {
             <textarea 
             type="text" placeholder='Message'>
             </textarea>
+
+            {/* Change this btn to link to send emails onClick. */}
             <button>
                 send
             </button>
