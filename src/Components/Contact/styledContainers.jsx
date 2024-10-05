@@ -13,6 +13,8 @@ export const ContactSection = styled.section`
     align-items: center;
     gap: 100px;
     margin: 50px;
+    height: 100vh;
+    /* width: fit-content; */
 `
 
 
@@ -21,7 +23,9 @@ export const ContactSection = styled.section`
 export const ContactBanner = styled(FlexDiv)`
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 350px;
+    height: 100%;
     margin: 0px 50px;
     background-color: whitesmoke;
     color: black;
@@ -55,19 +59,29 @@ export const NameFields = styled.div`
     flex-direction: row;
 
     > input{
-        width: 100%;
+        height: 43px;
+        padding: 6px 10px;
+        border: none;
+        border-radius: 5px;
     }
 
     > input + input{
-        margin-left: 15px;
+        margin-left: 20px;
     }
 `
 
 export const ContactFields = styled.div`
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
-    width: 100%;
+    margin-top: 5px;
+    gap: 5px;
+
+    > input{
+        height: 43px;
+        padding: 6px 10px;
+        border: none;
+        border-radius: 5px;
+    }
 
     > input + input{
         margin-top: 15px;
@@ -77,5 +91,26 @@ export const ContactFields = styled.div`
 
 export const TextField = styled.div`
     display: flex;
-    width: 100%;
+    flex-direction: column;
+    margin-top: 5px;
+
+    > textarea {
+        height: 120px;
+        padding: 6px 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    > button {
+        color: #ffffff;
+        background-color: #235d91;
+        margin-top: 8px;
+        text-align: center;
+
+        & :hover {
+            color: #213547;
+            background-color: #ffffff;
+            letter-spacing: 2.2px;
+        }
+    }
 `

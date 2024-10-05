@@ -1,29 +1,39 @@
-import { NameFields, ContactFields } from './Contact/styledContainers'
+import { NameFields, ContactFields, TextField } from './Contact/styledContainers'
 
 const Form = () => {
   return (
     <>
-      <form>
-        <NameFields>
-            <input 
-            type="text" />
+      <form style={{ width: '100%' }}>
 
-            <input 
-            type="text" />
-        </NameFields>
+        <div>
+          <label>Name *</label>
+          <NameFields>
+              <input 
+              type="text" placeholder='First'/>
+
+              <input 
+              type="text" placeholder='Last'/>
+          </NameFields>
+        </div>
         <ContactFields>
+            <label>Email *</label>
             <input 
-            type="text" />
+            type="email" placeholder='Email'/>
 
+            <label>Phone Number *</label>
             <input 
-            type="text" />
+            type="contact" placeholder="Phone no"/>
         </ContactFields>
-        <textarea 
-        type="text" >
-        </textarea>
-        <button>
-            Submit
-        </button>
+        <TextField>
+            <label>Message *</label>
+            <textarea 
+            type="text" placeholder='Message'>
+            </textarea>
+            <button>
+                send
+            </button>
+        </TextField>
+        
 
     </form>
     </>

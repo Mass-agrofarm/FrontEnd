@@ -45,7 +45,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #235d91;
   cursor: pointer;
   transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
@@ -57,7 +57,7 @@ button:hover {
   scale: 1.05px;
   letter-spacing: 0.5px;
   color: whitesmoke;
-  background-color: #213547;
+  background-color: #235d91;
 }
 
 button:focus,
@@ -65,6 +65,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Media Queries */
 @media (prefers-color-scheme: light) {
   :root {
     color: #ffffff;
