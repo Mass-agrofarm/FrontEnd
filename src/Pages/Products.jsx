@@ -36,7 +36,7 @@ function Products () {
 
   return (
     <>
-      <FlexDiv style={{ justifyContent: 'center' }}>
+      <FlexDiv style={{ justifyContent: 'center', marginBottom: '100px', backgroundColor: 'whitesmoke', color: '#213547' }}>
         <h1>Our Products</h1>
       </FlexDiv>
       <ProductCardsContainer>

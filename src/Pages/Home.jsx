@@ -10,6 +10,7 @@ import { ProductCardsContainer } from './Products';
 import { FlexDiv } from '../Components/StyledComponents/StyledContainers';
 import CustomerReviews from '../Components/CustomerReviews';
 import Divider from '../Components/Divider';
+import { P } from '../Components/StyledComponents/StyledElements';
 
 
 
@@ -25,9 +26,9 @@ function Home () {
         <FlexDiv>
           <div style={{ alignContent: 'flex-start', paddingRight: '90px', alignItems: 'center' }}>
             <h1>About us</h1>
-            <p style={{ width: '450px', marginBottom: '60px' }}>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque dignissimos doloremque dicta officia a adipisci rerum natus voluptas sequi impedit necessitatibus aut neque eveniet dolore numquam culpa, tempore repudiandae ullam.
-            </p>
+            <P style={{ width: '450px', marginBottom: '60px' }}>
+            Mars Agrofarm & Supplies Ltd is committed to empowering smallholder farmers and small-scale vendors. Our focus on innovation and sustainability drives us to provide high-quality agricultural solutions that enhance productivity and promote social impact.
+            </P>
             <Link style={{ backgroundColor: 'whitesmoke', padding: '8px 44.16px', borderRadius: '15px'}} to='/about'>More About us</Link>
           </div>
           <div style={{ alignContent: 'flex-end'}}>
@@ -62,8 +63,9 @@ function Home () {
       <Divider />
 
       <section style={{ height: '90vh'}}>
-        <FlexDiv style={{ justifyContent: 'center' }}>
-          <h1>Testimonials From Our Customers</h1>
+        <FlexDiv style={{ alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
+          <h2 style={{ margin: '50px 0px 0px 0px' }}>Testimonials From Our Customers</h2>
+          <P>Hear from our satisfied customers who have experienced significant improvements in their farming practices and business operations thanks to our products.</P>
         </FlexDiv>
         <FlexDiv style={{ justifyContent: 'center', gap: '20px' }}>
           {/** Customer review cards */}

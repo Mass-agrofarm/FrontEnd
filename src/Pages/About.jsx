@@ -1,5 +1,6 @@
 import Divider from "../Components/Divider";
 import { FlexDiv } from "../Components/StyledComponents/StyledContainers";
+import { P } from "../Components/StyledComponents/StyledElements";
 
 
 function About () {
@@ -11,14 +12,15 @@ function About () {
       </FlexDiv>
 
       {/* Storyline */}
-      <section style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', alignItems: 'center', height: '80vh', flexDirection: 'row', gap: '20px', margin: '50px 0px' }}>
+      <section style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', alignItems: 'center', height: '80vh', flexDirection: 'row', gap: '50px', margin: '50px 0px' }}>
         <div>
           <FlexDiv>
             <h2>Who Are We?</h2>
           </FlexDiv>
           <FlexDiv style={{ flexDirection: 'column' , width: '500px'}}>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero animi ducimus ipsam iste ad deserunt voluptate reiciendis est deleniti repellat temporibus ullam amet, atque, rem beatae. Aut aliquam necessitatibus voluptatum.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero animi ducimus ipsam iste ad deserunt voluptate reiciendis est deleniti repellat temporibus ullam amet, atque, rem beatae. Aut aliquam necessitatibus voluptatum.</p>
+            <P>Mars Agrofarm & Supplies Ltd, based in Tala with plans for expansion into Machakos KIE, is dedicated to uplifting smallholder farmers and women vendors through innovative agricultural solutions. Our focus on quality and sustainability drives us to create products that enhance productivity while promoting social equity.</P>
+            
+            <P>Understanding the unique challenges faced by farmers in Kenya and East Africa, we leverage strategic partnerships to develop tailored solutions. Our passionate team is committed to empowering communities, ensuring that our offerings contribute to a sustainable future for agriculture and local economies.</P>
           </FlexDiv>
         </div>
         <div>
@@ -31,7 +33,7 @@ function About () {
       {/* Company Tagline */}
       <span style={{ margin: '50px 0px' }}>
         <FlexDiv style={{  width: '100%' ,backgroundColor: 'whitesmoke', color: '#213547', justifyContent: 'center', padding: '8px 0px 6px 0px' }}>
-          <p><i>&quot;Tagline&quot;</i></p>
+          <P><i>&quot;Empowering Agriculture, Enriching Lives.&quot;</i></P>
         </FlexDiv>
       </span>
 
@@ -47,8 +49,8 @@ function About () {
               <FlexDiv style={{ justifyContent: 'left', marginBottom: '0' }}>
                 <h2>Mission</h2>
               </FlexDiv>
-              <FlexDiv style={{ textAlign: 'left', marginTop: '2px' }}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio suscipit nobis esse in sequi deserunt fuga? Quis odit quo sit magnam minima ratione aperiam voluptate? Illum voluptates eum beatae atque?</p>
+              <FlexDiv style={{ textAlign: 'left', marginTop: '2px'}}>
+                <P>Our mission is to empower smallholder farmers and vendors with innovative tools that drive productivity, sustainability, and social impact.</P>
               </FlexDiv>
             </div>
             <div style={{ width: '250px', height: '400px' }}>
@@ -56,7 +58,8 @@ function About () {
                 <h2>vision</h2>
               </FlexDiv>
               <FlexDiv style={{ textAlign: 'left', marginTop: '2px' }}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio suscipit nobis esse in sequi deserunt fuga? Quis odit quo sit magnam minima ratione aperiam voluptate? Illum voluptates eum beatae atque?</p>
+                <P>We envision a future where every farmer has access to the resources they need to thrive.
+                </P>
               </FlexDiv>
             </div>
           </FlexDiv>
