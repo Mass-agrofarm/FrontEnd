@@ -57,15 +57,20 @@ export const FlexDiv = styled.div`
 `
 
 
-// //* Card containers - customer reviews.
-// export const Container = styled(FlexDiv)`
-//     width: 300px;
-// `
+export const FooterLinks = styled.ul`
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    width: 96px;
 
-// export const CardContainer = ({children}) => (
-//   <Container>
-//       {children}
-//   </Container>
-// )
-//
-//
+    > a {
+        color: #ccc;
+        font-weight: 500;
+
+        &:hover {
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+`
