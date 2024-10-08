@@ -58,6 +58,10 @@ export const NameFields = styled.div`
     display: flex;
     flex-direction: row;
 
+    > label {
+        margin-bottom: 5px;
+    }
+
     > input{
         height: 43px;
         padding: 6px 10px;
@@ -94,6 +98,10 @@ export const TextField = styled.div`
     flex-direction: column;
     margin-top: 5px;
 
+    > label {
+        margin-bottom: 5px;
+    }
+
     > textarea {
         height: 120px;
         padding: 6px 10px;
@@ -112,5 +120,14 @@ export const TextField = styled.div`
             background-color: #ffffff;
             letter-spacing: 2.2px;
         }
+    }
+`
+
+
+export const MapFooter = styled.footer`
+    padding: 5px;
+
+    @media (max-width: 768px){
+        padding: 2px;
     }
 `
