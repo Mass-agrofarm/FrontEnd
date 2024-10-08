@@ -1,10 +1,73 @@
 // dependencies
+import styled from 'styled-components';
+
 
 // components
 import { FlexDiv } from '../Components/StyledComponents/StyledContainers';
-import { ContactBanner, ContactSection, MapFooter } from '../Components/Contact/StyledContainers.jsx';
+// import { ContactBanner, ContactSection, MapFooter } from '../Components/Contact/StyledContainers.jsx';
 import Form from '../Components/Form';
 import { P } from '../Components/StyledComponents/StyledElements';
+
+
+
+//Todo: contact banner for the contact page.
+
+const ContactSection = styled.section`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 50px;
+    height: 100vh;
+    /* width: fit-content; */
+`
+
+const ContactBanner = styled(FlexDiv)`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 100%;
+    margin: 0px 50px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 25px 50px;
+    border-radius: 15px;
+
+    > h3{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    > span > h4{
+        font-size: 18px;
+        margin: 0;
+    }
+
+    > span + span {
+        margin-top: 15px;
+    }
+
+
+    //! mediaQueries.
+    /* @media (min-width: 768px) {
+        
+    } */
+`
+
+//todo: contact form input div-s.
+
+const MapFooter = styled.footer`
+    padding: 5px;
+
+    @media (max-width: 768px){
+        padding: 2px;
+    }
+`
+
+
+
 
 function Contacts (){
   return (
