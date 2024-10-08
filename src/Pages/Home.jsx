@@ -32,7 +32,7 @@ function Home () {
             <Link style={{ backgroundColor: 'whitesmoke', padding: '8px 44.16px', borderRadius: '15px'}} to='/about'>More About us</Link>
           </div>
           <div style={{ alignContent: 'flex-end'}}>
-            <img style={{ width: '100%', borderRadius: '15px'}} src="/public/pexels-nicolasveithen-1719669.jpg"/>
+            <img style={{ width: '100%', borderRadius: '15px'}} src="/pexels-nicolasveithen-1719669.jpg"/>
           </div>
           <br style={{ border: '1px solid #ccc' }}></br>
         </FlexDiv>
