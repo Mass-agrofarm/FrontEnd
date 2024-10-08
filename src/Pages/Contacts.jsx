@@ -2,7 +2,7 @@
 
 // components
 import { FlexDiv } from '../Components/StyledComponents/StyledContainers';
-import { ContactBanner, ContactSection, MapFooter } from '../Components/Contact/StyledContainers';
+import { ContactBanner, ContactSection, MapFooter } from '../Components/Contact/StyledContainers.jsx';
 import Form from '../Components/Form';
 import { P } from '../Components/StyledComponents/StyledElements';
 
