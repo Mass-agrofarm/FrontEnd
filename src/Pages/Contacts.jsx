@@ -1,8 +1,8 @@
 // dependencies
 
 // components
-import { FlexDiv } from '../Components/StyledComponents/StyledContainers.jsx';
-import { ContactBanner, ContactSection, MapFooter } from '../Components/Contact/StyledContainers.jsx';
+import { FlexDiv } from '../Components/StyledComponents/StyledContainers';
+import { ContactBanner, ContactSection, MapFooter } from '../Components/Contact/StyledContainers';
 import Form from '../Components/Form';
 import { P } from '../Components/StyledComponents/StyledElements';
 
