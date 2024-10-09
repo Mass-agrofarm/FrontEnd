@@ -25,7 +25,7 @@ const Navigation = () => {
     <NavBar>
         <>
             <LogoLink to="/" >
-              <LogoImage src={Logo} alt="Mass AgroFarm logo" />
+              <LogoImage src={Logo} alt="Mars AgroFarm logo" />
             </LogoLink>
         </>
         <InnerContainer>

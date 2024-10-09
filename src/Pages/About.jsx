@@ -25,7 +25,7 @@ function About () {
         </div>
         <div>
           <FlexDiv>
-            <img style={{ width: '600px', height: '400px', borderRadius: '15px' }} src="https://fakeimg.pl/353x252/c5c5c5/959595?text=Mass+AgroFarm+&font=museo&font_size=24&retina=1"/>
+            <img style={{ width: '600px', height: '400px', borderRadius: '15px' }} src="https://fakeimg.pl/353x252/c5c5c5/959595?text=Mars+AgroFarm+&font=museo&font_size=24&retina=1"/>
           </FlexDiv>
         </div>
       </section>
@@ -42,7 +42,7 @@ function About () {
       {/* mission & Vision */}
       <section style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', alignItems: 'center', height: '80vh', flexDirection: 'row', gap: '30px', margin: '50px 0px' }}>
           <FlexDiv>
-            <img style={{ width: '600px', height: '400px', borderRadius: '15px' }} src="https://fakeimg.pl/353x252/c5c5c5/959595?text=Mass+AgroFarm&font=museo&font_size=24&retina=1"/>
+            <img style={{ width: '600px', height: '400px', borderRadius: '15px' }} src="https://fakeimg.pl/353x252/c5c5c5/959595?text=Mars+AgroFarm&font=museo&font_size=24&retina=1"/>
           </FlexDiv>
           <FlexDiv style={{ gap: '30px', alignItems: 'center' }}>
             <div style={{ width: '250px', height: '400px' }}>
@@ -98,7 +98,7 @@ function About () {
 
         <div style={{ alignContent: 'center', alignItems: 'center' }}>
           <FlexDiv>
-            <img style={{ width: '400px', height: '250px', borderRadius: '15px' }} src="https://fakeimg.pl/353x252/c5c5c5/959595?text=Mass+AgroFarm&font=museo&font_size=24&retina=1"/>
+            <img style={{ width: '400px', height: '250px', borderRadius: '15px' }} src="https://fakeimg.pl/353x252/c5c5c5/959595?text=Mars+AgroFarm&font=museo&font_size=24&retina=1"/>
           </FlexDiv>
         </div>
 

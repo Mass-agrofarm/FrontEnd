@@ -12,7 +12,7 @@ function Footer () {
             
             {/* logo */}
             <div style={{float: 'left', width: '100%'}}>
-              <h4>Mass AgroFarm</h4>
+              <h4>Mars AgroFarm</h4>
               <img style={{ width: '350px', height: '200px'}} src="/kisspng-jcb-backhoe-loader-heavy-machinery-bulldozer-5b0849998b5248.6003143515272697855707-1024x595.png"/>
             </div>
 

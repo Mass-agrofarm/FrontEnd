@@ -1,4 +1,4 @@
-import { NameFields, ContactFields, TextField } from './Contact/styledContainers'
+import { NameFields, ContactFields, TextField } from './Contact/StyledContainers'
 
 const Form = () => {
   return (
@@ -36,7 +36,7 @@ const Form = () => {
                 send
             </button>
         </TextField>
-        
+
 
     </form>
     </>
