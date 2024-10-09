@@ -44,6 +44,9 @@ export const InnerContainer = styled.div`
     justify-content: space-between;
 `
 
+//* end navigation containers.
+
+
 //* container
 export const ShapeContainer = styled.div`
     margin: 0px 96px 30px 96px;

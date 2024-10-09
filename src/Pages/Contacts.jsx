@@ -67,8 +67,6 @@ const ContactBanner = styled(FlexDiv)`
     } */
 `
 
-//todo: contact form input div-s.
-
 const MapFooter = styled.footer`
     padding: 5px;
 
@@ -117,7 +115,10 @@ function Contacts (){
           </ContactBanner>
 
           {/* contact form */}
-          <FlexDiv>
+          <FlexDiv style={{ flexDirection: 'column' }}>
+            <FlexDiv style={{ justifyContent: 'center' }}>
+              <h2 style={{ marginBottom: '12px' }}>Send Us An Email.</h2>
+            </FlexDiv>
             <Form />
           </FlexDiv>
           

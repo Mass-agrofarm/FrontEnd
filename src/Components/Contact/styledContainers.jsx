@@ -115,7 +115,7 @@ export const TextField = styled.div`
         margin-top: 8px;
         text-align: center;
 
-        & :hover {
+        &:hover {
             color: #213547;
             background-color: #ffffff;
             letter-spacing: 2.2px;
