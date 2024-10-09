@@ -24,6 +24,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.notebook
 
 # Local Netlify folder
 .netlify
