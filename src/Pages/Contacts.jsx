@@ -34,10 +34,21 @@ const ContactBanner = styled(FlexDiv)`
     color: black;
     padding: 25px 50px;
     border-radius: 15px;
+    line-height: 1.3 ;
 
     > h3{
-        font-size: 20px;
+        font-size: 21px;
         margin: 0;
+    }
+
+    > p {
+      margin: 5px 0px 15px 0px;
+      font-weight: 400;
+
+      > strong {
+        font-weight: 600;
+        font-size: 18px;
+      }
     }
 
     > span > h4{
@@ -81,6 +92,18 @@ function Contacts (){
           <ContactBanner>
             <h3>Get in touch with us</h3>
             <P>At Mars Agrofarm & Supplies Ltd, we are eager to assist you in transforming your agricultural practices. Whether you have questions about our innovative products or need personalized advice, our dedicated team is here to help!</P>
+            
+            <h3>Why Contact Us?</h3>
+            <P><strong>Expert Guidance:</strong> Our knowledgeable staff can provide insights tailored to your specific needs.
+            <br/>
+            <strong>Quick Responses:</strong> We value your time and strive to respond to all inquiries promptly.
+            <br/>
+            <strong>Customer-Centric Support:</strong> Your satisfaction is our priority. We are committed to ensuring you have the best experience with our products.</P>
+
+            <h3>Reach Out Today!</h3>
+            <P>Don’t hesitate to connect with us for any inquiries or assistance.</P>
+
+
             <span>
               <h4>Emails</h4>
               <a href="mailto:agrofarmmars@gmail.com">agrofarmmars@gmail.com</a>

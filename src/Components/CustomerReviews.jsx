@@ -7,7 +7,7 @@ import { styled } from 'styled-components';
 import { FlexDiv } from './StyledComponents/StyledContainers';
 
 
-const Container = styled(FlexDiv)`
+const CardContainer = styled(FlexDiv)`
     width: 240px;
     height: 270px;
     padding: 20px;
@@ -16,13 +16,20 @@ const Container = styled(FlexDiv)`
     align-items: center;
     color: black;
     background-color: whitesmoke;
+
+    > h4 {
+        margin: 6px 0px;
+    }
+
+    > p {
+      margin-top: 5px;
+    }
+
+    > p + p {
+      margin-top: 0;
+    }
 `
 
-const CardContainer = ({children}) => (
-  <Container>
-      {children}
-  </Container>
-)
 
 
 
@@ -30,11 +37,11 @@ function CustomerReviews () {
   return (
     <FlexDiv style={{ marginTop: '25px' }}>
       <CardContainer>
-        <h4 style={{margin: '6px 0px'}}>John Doe</h4>
-        <p style={{marginTop: '5px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nulla animi! Esse ex, autem inventore nesciunt temporibus, quibusdam, totam delectus iste harum a at facilis error voluptatum soluta porro. Esse!</p>
-        <p style={{marginTop: '0'}}>⭐⭐⭐⭐⭐</p>
+        <h4>John Doe</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nulla animi! Esse ex, autem inventore nesciunt temporibus, quibusdam, totam delectus iste harum a at facilis error voluptatum soluta porro. Esse!</p>
+        <p>⭐⭐⭐⭐⭐</p>
       </CardContainer>
-      </FlexDiv>
+    </FlexDiv>
   )
 }
 
