@@ -2,6 +2,8 @@
 import React from "react";
 
 import "./homeStyle.css";
+import { P } from "../StyledComponents/StyledElements";
+import { AbsoluteDiv } from "./StyledContainer";
 
 function Hero (){
   return (
@@ -11,16 +13,13 @@ function Hero (){
       <section style={{ backgroundColor: 'silver',height: '100vh'}}>
         <div className='overlay'></div>
         <img className='hero-img' src="https://www.tractorgiants.com/wp-content/uploads/2024/02/DSC03826_HDR-scaled-1.jpg" alt="tractors carousel" />
-        <div style={{ position: 'absolute', left: '30px', bottom: '30px'}}>
-            <h1 className="hero-heading">Mass AgroFarm</h1>
-            <p className="hero-text">
-                Discover new ways to enhance your business with our innovative solutions. We help you drive growth and reach new heights.
-                <br></br>
-                <br></br>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ea corporis? Consectetur iusto obcaecati beatae illo, exercitationem omnis rem ipsum alias nam facere nihil accusantium error! Beatae, tempora vel. Possimus.
-    	    </p>
-            <button className="hero-cta-button">Call Us</button>
-        </div>
+        <AbsoluteDiv>
+            <h1 className="hero-heading">Mars AgroFarm</h1>
+            <P className="hero-text">
+            Welcome to Mars Agrofarm & Supplies Ltd, where we are dedicated to transforming agricultural productivity for smallholder farmers in Kenya and East Africa. Discover innovative and affordable farm equipment tailored to your needs.
+            </P>
+            <a href="tell:+254712519486" className="hero-cta-button">Call Us</a>
+        </AbsoluteDiv>
       </section>
       {/* end hero */}
     </>
