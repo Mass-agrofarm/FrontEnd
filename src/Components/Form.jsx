@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 
 // Components.
-import { NameFields, ContactFields, TextField } from './Contact/StyledContainers';
+import { NameFields, ContactFields, TextField } from './Contact/StyledContainers.jsx';
 import { FlexDiv } from './StyledComponents/StyledContainers';
 
 
@@ -27,7 +27,7 @@ const Form = () => {
 
   //* Input validation.
   const emailRegEx = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
-  const phoneRegEx = /^\+\S[\d\s]{1,11}$/
+  const phoneRegEx = /^\+\S[\d\s]{1,11}$/;
 
 //* Handling change and submission.
   const handleChange = (e) => {
