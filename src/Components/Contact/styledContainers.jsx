@@ -80,14 +80,18 @@ export const ContactFields = styled.div`
     margin-top: 5px;
     gap: 5px;
 
-    > input{
+    > div > input {
         height: 43px;
         padding: 6px 10px;
         border: none;
         border-radius: 5px;
     }
 
-    > input + input{
+    > div > input > span {
+        font-weight: 500;
+    }
+
+    > div + div{
         margin-top: 15px;
     }
 
@@ -113,12 +117,21 @@ export const TextField = styled.div`
         color: #ffffff;
         background-color: #235d91;
         margin-top: 8px;
+        border-radius: 15px;
         text-align: center;
+        transition: all 100ms ease-in-out;
 
         &:hover {
             color: #213547;
             background-color: #ffffff;
             letter-spacing: 2.2px;
+        }
+        &:focus, &:focus-visible{
+            outline: none;
+            scale: 1.2;
+        }
+        &:focus-within {
+            scale: 1.1;
         }
     }
 `
