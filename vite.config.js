@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import path from 'path';
+// import path from 'path';
 // import { fileURLToPath } from 'url';
 
 
@@ -14,7 +14,7 @@ export default defineConfig({
   //* absolute path configs.
   resolve: {
     alias: {
-      // src: 'src',
+      src: '/src',
       '@components': 'src/Components',
     }
   },
