@@ -8,7 +8,7 @@ export default defineConfig({
   //* absolute path configs.
   resolve: {
     alias: {
-      src: '/src',
+      src: './src',
     }
   },
 
