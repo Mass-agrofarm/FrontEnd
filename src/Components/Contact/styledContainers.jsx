@@ -92,7 +92,7 @@ export const ContactFields = styled.div`
     }
 
     > div + div{
-        margin-top: 15px;
+        margin-top: 5px;
     }
 
 `
