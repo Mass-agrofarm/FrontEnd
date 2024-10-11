@@ -126,6 +126,13 @@ export const TextField = styled.div`
             background-color: #ffffff;
             letter-spacing: 2.2px;
         }
+        &:focus, &:focus-visible::after{
+            outline: none;
+        }
+        &:active, &:active::after{
+            color: #ffffff;
+            background-color: #235d91;
+        }
     }
 `
 
