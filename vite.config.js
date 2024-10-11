@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path';
-import { fileURLToPath } from 'url';
+// import { fileURLToPath } from 'url';
 
 
 // Get the equivalent of __dirname in ES Modules
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,7 +15,7 @@ export default defineConfig({
   resolve: {
     alias: {
       // src: 'src',
-      '@components': path.resolve(__dirname, './src/Components'),
+      '@components': path.resolve('./src/Components'),
     }
   },
 
