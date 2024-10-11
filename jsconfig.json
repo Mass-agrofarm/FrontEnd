@@ -1,0 +1,9 @@
+// configs to intellisense for absolute path suggestions.
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "src/*": ["./src/*"],
+      }
+    }
+  }
