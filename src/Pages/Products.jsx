@@ -1,26 +1,20 @@
 // dependancies and tools
-// eslint-disable-next-line no-unused-vars
-import React, { Suspense, useState } from 'react';
-import styled from 'styled-components';
+// import React, { Suspense, useState } from 'react';
 
 
 //* components
-import ProductCards from '../Components/ProductComponents/ProductCards';
-import { FlexDiv } from '../Components/StyledComponents/StyledContainers';
-import CustomerReviews from '../Components/CustomerReviews';
+import ProductCards from '@components/ProductComponents/ProductCards';
+import { FlexDiv } from '@components/StyledComponents/StyledContainers';
+import CustomerReviews from '@components/CustomerReviews';
 
 
 
 //* custom components
-import { ShapeContainer } from '../Components/StyledComponents/StyledContainers';
-import Divider from '../Components/Divider';
+import Divider from '@components/Divider';
+import { ProductCardsContainer } from '@/Components/ProductComponents/StyledContainers';
 
 
-//* Custom styled components.
-export const ProductCardsContainer = styled(ShapeContainer)`
-    /* products container gap */
-    gap: 1.5em;
-`
+
 
 function Products () {
   /* const [data, setData] = useState([])

@@ -11,7 +11,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Products from './Pages/Products';
 import Contacts from './Pages/Contacts';
-import Footer from './Components/Footer';
+import Footer from './Components/Footer/Footer';
 
 
 
