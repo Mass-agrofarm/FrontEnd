@@ -1,15 +1,15 @@
 import styled from 'styled-components';
-
+import { Colors } from '@/GlobalStyles/Styles';
 
 export const FooterSection = styled.section`
     display: flex;
     justify-content: center;
     height: 60vh;
-    background-color: #343434;
+    background-color: ${Colors['background-300']};
     backdrop-filter: blur(8px);
 
     h4 {
-        color: #A47711;
+        color: ${Colors['rich-black']};
     }
 `
 
@@ -27,12 +27,13 @@ export const FooterLinks = styled.ul`
     width: 96px;
 
     > a {
-        color: #ccc;
+        color: ${Colors['accent-100']};
         font-weight: 500;
 
         &:hover {
-            color: #fff;
+            color: ${Colors['accent-200']};
             font-weight: 700;
+            text-decoration: underline 2px solid ${Colors['accent-200']};
         }
     }
 `
