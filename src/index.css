@@ -11,6 +11,48 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* * color theme.
+    --primary-100: #ff5733;
+    --primary-200: #ff8166;
+    --primary-300: #ffab99;
+    --accent-100: #4e6e2c;
+    --accent-200: #4e6e2c;
+    --accent-300: #4e6e2c;
+    --background-100: #fffefd;
+    --background-200: #fff1e3;
+    --background-300: #ffe5ca;
+    --text-100: #3b140b;
+    --text-200: #662313;
+    --text-300: #91311b; */
+
+    
+
+/* CSS HEX */
+--rich-black: #040f0fff;
+--forest-green: #28953eff;
+--pigment-green: #2ba84aff;
+--gunmetal: #2d3a3aff;
+--dim-gray: #616c6bff;
+--cadet-gray: #959d9bff;
+--silver: #c9ceccff;
+--platinum: #e3e7e4ff;
+--white-smoke: #f0f3f0ff;
+--baby-powder: #fcfffcff;
+
+/* CSS HSL */
+--rich-black: hsla(180, 58%, 4%, 1);
+--forest-green: hsla(132, 58%, 37%, 1);
+--pigment-green: hsla(135, 59%, 41%, 1);
+--gunmetal: hsla(180, 13%, 20%, 1);
+--dim-gray: hsla(175, 5%, 40%, 1);
+--cadet-gray: hsla(165, 4%, 60%, 1);
+--silver: hsla(156, 5%, 80%, 1);
+--platinum: hsla(135, 8%, 90%, 1);
+--white-smoke: hsla(120, 11%, 95%, 1);
+--baby-powder: hsla(120, 100%, 99%, 1);
+
+
 }
 
 a {
@@ -68,20 +110,17 @@ button:focus-visible {
 /* Media Queries */
 @media (prefers-color-scheme: light) {
   :root {
-    color: #ffffff;
-    background-color: #213547;
+    color: #213547;
+    background-color: var(--baby-powder);
   }
   a:hover {
     color: #0d339e;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: var(--white-smoke);
   }
 }
 
-progress{
-  display: none;
-}
 
 ol > li + li {
   margin-bottom: 5px;

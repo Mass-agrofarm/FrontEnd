@@ -10,7 +10,7 @@ import { styled } from 'styled-components';
 
 //* paragraph styles
 export const P = styled.p`
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 `
 
