@@ -1,18 +1,17 @@
-
 // color variables
-const richBlack = `#040f0fff`
+const richBlack = `hsla(180, 58%, 4%, 1)`
 
-const forestGreen = `#28953eff`
-const pigmentGreen = `#2ba84aff`
+const forestGreen = `hsla(132, 58%, 37%, 1)`
+const pigmentGreen = `hsla(135, 59%, 41%, 1)`
 
-const gunMetal = `#2d3a3aff`
-const dimGray = `#616c6bff`
-const cadetGray = `#959d9bff`
-const silver = `#c9ceccff`
+const gunMetal = `hsla(180, 13%, 20%, 1)`
+const dimGray = `hsla(175, 5%, 40%, 1)`
+const cadetGray = `hsla(165, 4%, 60%, 1)`
+const silver = `hsla(156, 5%, 80%, 1)`
 
-const platinum = `#e3e7e4ff`
-const whiteSmoke = `#f0f3f0ff`
-const babyPowder = `#fcfffcff`
+const platinum = `hsla(135, 8%, 90%, 1)`
+const whiteSmoke = `hsla(120, 11%, 95%, 1)`
+const babyPowder = `hsla(120, 100%, 99%, 1)`
 
 
 
