@@ -1,6 +1,11 @@
+.cards-container{
+    gap: 30px;
+}
+
+
 .product-img{
-    width: 353px;
-    height: 252px;
+    width: 258px;
+    height: 168px;
     border-radius: 15px 15px 0px 0px;
     -webkit-border-radius: 15px 15px 0px 0px;
     -moz-border-radius: 15px 15px 0px 0px;
@@ -10,11 +15,18 @@
 
 
 .product-card{
-    width: 355px;
-    background-color: whitesmoke;
+    /*minimize cards*/
+    width: 259px;
+    height: 438px;
+    background-color: rgb(245, 245, 245);
     color: black;
     padding: 5px;
+    box-shadow: -0.9px 0.9px 3px rgba(0,0,0,0.6);
     border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .product-name{
@@ -35,6 +47,7 @@
     margin: 0px 0px 0px 0px;
     padding: 8px 44.16px;
     background-color: silver;
+    box-shadow: -0.9px 0.9px 3px rgba(0,0,0,0.6);
     transition: all 0.04s ease-in-out;
     -webkit-transition: all 0.04s ease-in-out;
     -moz-transition: all 0.04s ease-in-out;

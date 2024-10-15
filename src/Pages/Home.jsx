@@ -4,13 +4,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 //components
-import Hero from '../Components/Home/Hero';
-import ProductCards from '../Components/ProductComponents/ProductCards';
-import { ProductCardsContainer } from './Products';
-import { FlexDiv } from '../Components/StyledComponents/StyledContainers';
-import CustomerReviews from '../Components/CustomerReviews';
-import Divider from '../Components/Divider';
-import { P } from '../Components/StyledComponents/StyledElements';
+import Hero from '@components/Home/Hero';
+import ProductCards from '@components/ProductComponents/ProductCards';
+import { ProductCardsContainer } from '@components/ProductComponents/StyledContainers';
+import { FlexDiv } from '@components/StyledComponents/StyledContainers';
+import CustomerReviews from '@components/CustomerReviews';
+import Divider from '@components/Divider';
+import { P } from '@components/StyledComponents/StyledElements';
+import { FeaturedProductsSection } from '@/Components/Home/StyledContainers';
 
 
 
@@ -29,10 +30,10 @@ function Home () {
             <P style={{ width: '450px', marginBottom: '60px' }}>
             Mars Agrofarm & Supplies Ltd is committed to empowering smallholder farmers and small-scale vendors. Our focus on innovation and sustainability drives us to provide high-quality agricultural solutions that enhance productivity and promote social impact.
             </P>
-            <Link style={{ backgroundColor: 'whitesmoke', padding: '8px 44.16px', borderRadius: '15px'}} to='/about'>More About us</Link>
+            <Link style={{ backgroundColor: 'whitesmoke', padding: '8px 44.16px', borderRadius: '15px', boxShadow: '-2px 2px 5px rgba(0,0,0,0.6)'}} to='/about'>More About us</Link>
           </div>
           <div style={{ alignContent: 'flex-end'}}>
-            <img style={{ width: '100%', borderRadius: '15px'}} src="/pexels-nicolasveithen-1719669.jpg"/>
+            <img style={{ width: '100%', borderRadius: '15px', boxShadow: '-5px 5px 5px rgba(0,0,0,0.6)'}} src="/pexels-nicolasveithen-1719669.jpg"/>
           </div>
           <br style={{ border: '1px solid #ccc' }}></br>
         </FlexDiv>
@@ -42,7 +43,7 @@ function Home () {
       {/* ! divider */}
       <Divider />
 
-      <section style={{ height: '100vh', marginBottom: '126px'}}>
+      <FeaturedProductsSection>
         <FlexDiv style={{justifyContent: 'center'}}>
           <h1>Featured Products</h1>
         </FlexDiv>
@@ -53,11 +54,12 @@ function Home () {
           <ProductCards/>
           <ProductCards/>
           <ProductCards/>
+          <ProductCards/>
         </ProductCardsContainer>
         <FlexDiv style={{justifyContent: 'center'}}>
           <Link style={{ backgroundColor: 'whitesmoke', padding: '8px 44.16px', borderRadius: '15px'}}to="/products">See more...</Link>
         </FlexDiv>
-      </section>
+      </FeaturedProductsSection>
 
       {/* ! divider */}
       <Divider />

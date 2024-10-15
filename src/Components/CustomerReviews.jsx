@@ -1,5 +1,4 @@
 // Dependacies
-/* eslint-disable react/prop-types */
 
 import { styled } from 'styled-components';
 
@@ -16,6 +15,7 @@ const CardContainer = styled(FlexDiv)`
     align-items: center;
     color: black;
     background-color: whitesmoke;
+    box-shadow: -2px 2px 5px rgba(0,0,0,0.6);
 
     > h4 {
         margin: 6px 0px;
