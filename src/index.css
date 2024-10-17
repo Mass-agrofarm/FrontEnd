@@ -29,7 +29,7 @@
     
 
 /* CSS HEX */
---rich-black: #040f0fff;
+/* --rich-black: #040f0fff;
 --forest-green: #28953eff;
 --pigment-green: #2ba84aff;
 --gunmetal: #2d3a3aff;
@@ -38,7 +38,7 @@
 --silver: #c9ceccff;
 --platinum: #e3e7e4ff;
 --white-smoke: #f0f3f0ff;
---baby-powder: #fcfffcff;
+--baby-powder: #fcfffcff; */
 
 /* CSS HSL */
 --rich-black: hsla(180, 58%, 4%, 1);

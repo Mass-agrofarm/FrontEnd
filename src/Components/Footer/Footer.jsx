@@ -11,14 +11,14 @@ function Footer () {
   return (
     <>
       <FooterSection>
-        <FlexDiv style={{ flexDirection: 'row',alignItems: 'center', padding: '96px', gap: '90px' }}>
+        <FlexDiv className="shell">
             
             {/* logo */}
-            <div style={{float: 'left', width: '100%'}}>
-              <h4>Mars AgroFarm</h4>
-              <img style={{ width: '350px', height: '200px'}} src={Logo}/>
+            <div style={{ width: '100%'}}>
+              {/* <h4>Mars AgroFarm</h4> */}
+              <img style={{ width: '350px', height: '200px', marginBottom: '0' }} src={Logo}/>
             </div>
-
+            
             {/* links */}
             <div>
               <h4 style={{ marginBottom: '0', marginTop: '0' }}>Links</h4>
@@ -43,8 +43,8 @@ function Footer () {
 
             {/* CTA, sub to newsletter */}
             <FlexDiv style={{ flexDirection: 'column', gap: '12px'}}>
-              <input type='email' style={{ padding: '8px 25px', borderRadius: '10px', border: 'none'}} placeholder='Subscribe to our newsletter'></input>
-              <button style={{ padding: '6px 8px', justifyContent: 'center' }}>Subscribe</button>
+              <input type='email' placeholder='Subscribe to our newsletter'></input>
+              <button>Subscribe</button>
             </FlexDiv>
 
         </FlexDiv>

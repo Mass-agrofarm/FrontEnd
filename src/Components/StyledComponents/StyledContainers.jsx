@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { Colors } from '@/GlobalStyles/Styles';
 
 
 //! Sections.
@@ -10,8 +11,6 @@ const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-image:linear-gradient(to right, #38830c, #379500, #737373, #ACACAD);
-    background-blend-mode: color-dodge; */
     background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(8px);
     color: #fff;
@@ -40,19 +39,23 @@ export const InnerContainer = styled.div`
     /* margin-right: 15px; */
     padding: 12.59px;
     display: flex;
-    /* flex-direction: row; */
-    /* word-wrap: wrap; */
     justify-content: space-between;
 
     > a {
-        color: #38830c;
+        color: ${Colors['accent-100']};
         border-bottom: 2px solid rgba(255, 255, 255, 0);
-    }
-    
-    > a:hover {
-        font-weight: 600;
-        color: #336b13;
-        border-bottom: 2px solid #336b13;
+
+        &:hover {
+            font-weight: 600;
+            color: ${Colors['accent-200']};
+            border-bottom: 2px solid ${Colors['accent-100']};
+        }
+
+        &:focus ,&:active {
+            font-weight: 600;
+            color: ${Colors['accent-200']};
+            border-bottom: 2px solid ${Colors['accent-100']};
+        }
     }
 `
 
@@ -70,22 +73,3 @@ export const ShapeContainer = styled.div`
 export const FlexDiv = styled.div`
     display: flex;
 `
-
-
-// export const FooterLinks = styled.ul`
-//     display: flex;
-//     flex-direction: column;
-//     list-style: none;
-//     padding: 0;
-//     width: 96px;
-
-//     > a {
-//         color: #ccc;
-//         font-weight: 500;
-
-//         &:hover {
-//             color: #fff;
-//             font-weight: 700;
-//         }
-//     }
-// `

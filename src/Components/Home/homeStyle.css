@@ -3,20 +3,24 @@
   width: 100%;
 }
 
-.hero-cta-button{
-  background-color: whitesmoke;
-  color: black;
+a.hero-cta-button {
+  background-color: var(--forest-green);
+  color: var(--rich-black);
   font-weight: 700;
   padding: 0.6em 2.2em;
+  box-shadow: -2px 2px 5px rgba(0,0,0,0.6);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.hero-cta-button :hover{
-  background-color: #235d91;
-  color: silver;
+
+a.hero-cta-button:hover {
+  background-color: var(--pigment-green);
+  color: var(--white-smoke);
+  margin-left: 2px;
+  box-shadow: -4px 4px 5px rgba(0,0,0,0.6);
 }
 
 .overlay {
@@ -24,7 +28,7 @@
   width: 100%;
   position: absolute;
   background-color: transparent;
-  background-image: linear-gradient(225deg, #00000000 1%, #248232ff 75%);
+  background-image: linear-gradient(225deg, #00000000 1%, var(--baby-powder) 75%);
   /* background-image: linear-gradient(315deg, #040f0fff, #248232ff, #2ba84aff, #2d3a3aff, #fcfffcff); */
 
   /*backdrop-filter: blur(2px);
@@ -37,13 +41,15 @@
 }
 
 .hero-text{
-  color: #ffffff;
+  color: var(--rich-black);
+  font-weight: 500;
+  font-size: 18px;
   width: 450px;
   text-align: justify;
   padding: 2px 0px 12px 26px;
 }
 
 .hero-heading{
-  color: #ffffff;
+  color: var(--rich-black);
   margin-bottom: 15px;
 }

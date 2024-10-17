@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 
 //components
 import Hero from '@components/Home/Hero';
-import ProductCards from '@components/ProductComponents/ProductCards';
+import { MainSection, FeaturedProductsSection, TestimonialsSection } from '@/Components/Home/StyledContainers';
 import { ProductCardsContainer } from '@components/ProductComponents/StyledContainers';
-import { FlexDiv } from '@components/StyledComponents/StyledContainers';
+import ProductCards from '@components/ProductComponents/ProductCards';
 import CustomerReviews from '@components/CustomerReviews';
+
+import { FlexDiv } from '@components/StyledComponents/StyledContainers';
 import Divider from '@components/Divider';
-import { P } from '@components/StyledComponents/StyledElements';
-import { FeaturedProductsSection } from '@/Components/Home/StyledContainers';
 
 
 
@@ -23,30 +23,29 @@ function Home () {
       <Hero />
 
       {/* ! Main sections */}
-      <section style={{ height: '80vh', padding: '0px 96px', marginTop: '96.16px' }}>
+      <MainSection>
         <FlexDiv>
-          <div style={{ alignContent: 'flex-start', paddingRight: '90px', alignItems: 'center' }}>
+          <div className='text'>
             <h1>About us</h1>
-            <P style={{ width: '450px', marginBottom: '60px' }}>
+            <p>
             Mars Agrofarm & Supplies Ltd is committed to empowering smallholder farmers and small-scale vendors. Our focus on innovation and sustainability drives us to provide high-quality agricultural solutions that enhance productivity and promote social impact.
-            </P>
-            <Link style={{ backgroundColor: 'whitesmoke', padding: '8px 44.16px', borderRadius: '15px', boxShadow: '-2px 2px 5px rgba(0,0,0,0.6)'}} to='/about'>More About us</Link>
+            </p>
+            <Link to='/about'>More About us</Link>
           </div>
-          <div style={{ alignContent: 'flex-end'}}>
-            <img style={{ width: '100%', borderRadius: '15px', boxShadow: '-5px 5px 5px rgba(0,0,0,0.6)'}} src="/pexels-nicolasveithen-1719669.jpg"/>
+          <div className='image'>
+            <img src="/pexels-nicolasveithen-1719669.jpg"/>
           </div>
-          <br style={{ border: '1px solid #ccc' }}></br>
         </FlexDiv>
-      </section>
+      </MainSection>
 
 
       {/* ! divider */}
       <Divider />
 
       <FeaturedProductsSection>
-        <FlexDiv style={{justifyContent: 'center'}}>
+        <div className="header">
           <h1>Featured Products</h1>
-        </FlexDiv>
+        </div>
         <ProductCardsContainer>
 
           {/* Remember to delete cards except for one. */}
@@ -56,26 +55,26 @@ function Home () {
           <ProductCards/>
           <ProductCards/>
         </ProductCardsContainer>
-        <FlexDiv style={{justifyContent: 'center'}}>
-          <Link style={{ backgroundColor: 'whitesmoke', padding: '8px 44.16px', borderRadius: '15px'}}to="/products">See more...</Link>
-        </FlexDiv>
+        <div className="link">
+          <Link to="/products">See more...</Link>
+        </div>
       </FeaturedProductsSection>
 
       {/* ! divider */}
       <Divider />
 
-      <section style={{ height: '90vh'}}>
+      <TestimonialsSection>
         <FlexDiv style={{ alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
-          <h2 style={{ margin: '50px 0px 0px 0px' }}>Testimonials From Our Customers</h2>
-          <P>Hear from our satisfied customers who have experienced significant improvements in their farming practices and business operations thanks to our products.</P>
+          <h2>Testimonials From Our Customers</h2>
+          <p>Hear from our satisfied customers who have experienced significant improvements in their farming practices and business operations thanks to our products.</p>
         </FlexDiv>
-        <FlexDiv style={{ justifyContent: 'center', gap: '20px' }}>
+        <div className="review-cards">
           {/** Customer review cards */}
           <CustomerReviews/>
           <CustomerReviews/>
           <CustomerReviews/>
-        </FlexDiv>
-      </section>
+        </div>
+      </TestimonialsSection>
       {/* ! end Main sections */}
 
     </>
