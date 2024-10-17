@@ -20,16 +20,20 @@ export const FooterSection = styled.section`
     }
 
     div.shell {
+        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding: 96px;
+        /* padding-top: 96px; */
+        /* padding-bottom: 96px; */
         gap: 90px;
 
         div.logo {
+            margin-top: 30px;
             background-image: url(${Logo});
-            width: 300px;
-            height: 300px;
+            background-size: cover;
+            width: 350px;
+            height: 350px;
         }
 
         div input {
@@ -51,6 +55,7 @@ export const FooterSection = styled.section`
 
             &:hover {
                 background-color: ${Colors['accent-200']};
+                box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.5);
             }
         }
     }

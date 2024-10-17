@@ -13,18 +13,19 @@ import CustomerReviews from '@components/CustomerReviews';
 import { FlexDiv } from '@components/StyledComponents/StyledContainers';
 import Divider from '@components/Divider';
 
-
+// assets.
+import mamaMbogaKiosk from '@assets/mama-mboga-kiosk.jpg';
 
 
 function Home () {
   return (
-    <>
+    <div className='shell'>
       {/* ! Hero */}
       <Hero />
 
       {/* ! Main sections */}
       <MainSection>
-        <FlexDiv>
+        <div className='shell'>
           <div className='text'>
             <h1>About us</h1>
             <p>
@@ -33,14 +34,12 @@ function Home () {
             <Link to='/about'>More About us</Link>
           </div>
           <div className='image'>
-            <img src="/pexels-nicolasveithen-1719669.jpg"/>
+            <img src={mamaMbogaKiosk}/>
           </div>
-        </FlexDiv>
+        </div>
       </MainSection>
 
 
-      {/* ! divider */}
-      <Divider />
 
       <FeaturedProductsSection>
         <div className="header">
@@ -64,7 +63,7 @@ function Home () {
       <Divider />
 
       <TestimonialsSection>
-        <FlexDiv style={{ alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
+        <FlexDiv className="title" style={{ alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
           <h2>Testimonials From Our Customers</h2>
           <p>Hear from our satisfied customers who have experienced significant improvements in their farming practices and business operations thanks to our products.</p>
         </FlexDiv>
@@ -77,7 +76,7 @@ function Home () {
       </TestimonialsSection>
       {/* ! end Main sections */}
 
-    </>
+    </div>
   )
 }
 

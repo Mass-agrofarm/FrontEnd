@@ -1,4 +1,4 @@
-.hero-img{
+/* .hero-img{
   height: 100vh;
   width: 100%;
 }
@@ -29,10 +29,7 @@ a.hero-cta-button:hover {
   position: absolute;
   background-color: transparent;
   background-image: linear-gradient(225deg, #00000000 1%, var(--baby-powder) 75%);
-  /* background-image: linear-gradient(315deg, #040f0fff, #248232ff, #2ba84aff, #2d3a3aff, #fcfffcff); */
-
-  /*backdrop-filter: blur(2px);
-  */opacity: 1;
+  opacity: 1;
   transition: all 0.3s, border-radius 0.3s, opacity 0.3s;
   -webkit-transition: all 0.3s, border-radius 0.3s, opacity 0.3s;
   -moz-transition: all 0.3s, border-radius 0.3s, opacity 0.3s;
@@ -53,3 +50,11 @@ a.hero-cta-button:hover {
   color: var(--rich-black);
   margin-bottom: 15px;
 }
+
+
+@media (max-width: 768) {
+  .hero-img{
+    height: auto;
+    width: 100%;
+  }
+} */

@@ -4,6 +4,10 @@ import React from "react";
 import "./homeStyle.css";
 import { AbsoluteDiv, HeroSection } from "./StyledContainers";
 
+// assets.
+import mamaMboga from '@assets/mama-mboga.jpg';
+
+
 function Hero (){
   return (
     // identifier.
@@ -11,7 +15,9 @@ function Hero (){
         {/* hero section */}
       <HeroSection>
         <div className='overlay'></div>
-        <img className='hero-img' src="https://www.tractorgiants.com/wp-content/uploads/2024/02/DSC03826_HDR-scaled-1.jpg" alt="tractors carousel" />
+        <div className='img-container'>
+          <img className='hero-img' src={mamaMboga} alt="mama mboga at work" />
+        </div>
         <AbsoluteDiv>
             <h1 className="hero-heading">Mars AgroFarm</h1>
             <p className="hero-text">
