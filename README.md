@@ -30,6 +30,11 @@ npm install
 ```bash
 npm run dev
 ```
+
+#### `Browser view.`
+
+- [x]  The site is configured to run in port [3000](https://localhost:3000)
+
 That's it 😂. Congratulations on your build 🔥.
 
 
