@@ -10,7 +10,7 @@ This is the front end code for the iconic Mars Agrofarm company website, Mars Ag
 
 #### `Technologies used` in the development of the front end: 
 
-[Vite + React](https://vite.dev/guide/#overview) and [Styled Components Library](https://styled-components.com/docs) library for more control over styling rules.
+[Vite + React](https://vite.dev/guide/#overview) and [Styled Components Library](https://styled-components.com/docs) for more control over styling rules.
 
 If you wish to work with the files created for the front end code, you'll need to clone the repository and then Install site dependancies with npm, then run the development server to view the site in your browser.
 
