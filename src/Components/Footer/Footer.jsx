@@ -11,10 +11,19 @@ function Footer () {
   return (
     <>
       <FooterSection>
-        <FlexDiv className="shell">
+        <div className="shell">
             
             {/* logo */}
-            <div className="logo"></div>
+            <div className="logo">
+              <span className="logo-text">
+                <span className="logo-pop">Mars</span>
+                <br/>
+                <span className="logo-brand">AgroFarm</span>
+                <span className="logo-tagline">
+                  <p>Empowering Agriculture, Enriching Lives.</p>
+                </span>
+              </span>
+            </div>
             {/* <div style={{ width: '100%'}}> */}
               {/* <h4>Mars AgroFarm</h4> */}
               {/* <img style={{ width: '350px', height: '200px', marginBottom: '0' }} src={Logo}/>
@@ -48,7 +57,7 @@ function Footer () {
               <button>Subscribe</button>
             </FlexDiv>
 
-        </FlexDiv>
+        </div>
       </FooterSection>
     </>
   )

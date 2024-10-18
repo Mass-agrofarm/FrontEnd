@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Colors } from '@/GlobalStyles/Styles';
+import { Colors, Devices, breakpoints } from '@/GlobalStyles/Styles';
 
 
 import Logo from '@assets/logo.svg';
@@ -29,11 +29,39 @@ export const FooterSection = styled.section`
         gap: 90px;
 
         div.logo {
-            margin-top: 30px;
-            background-image: url(${Logo});
-            background-size: cover;
-            width: 350px;
-            height: 350px;
+            /* margin-top: 30px; */
+            /* background-image: url(${Logo}); */
+            /* background-size: cover; */
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            align-items: center;
+            height: 100%;
+            font-size: 52px;
+            font-weight: 800;
+            font-family: 'Raleway', sans-serif;
+            line-height: 0.98;
+            letter-spacing: 1.16px;
+
+            span.logo-text{
+
+                span.logo-tagline p {
+                    margin-top: 15px;
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    font-family: 'Bradley Hand', cursive;
+                }
+
+                span.logo-pop{
+                    color: ${Colors['rich-black']};
+                }
+
+                span.logo-brand {
+                    color: ${Colors['accent-200']};
+                }
+            }
         }
 
         div input {
@@ -58,6 +86,48 @@ export const FooterSection = styled.section`
                 box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.5);
             }
         }
+
+        @media (${Devices.xs}) and (max-width: ${breakpoints.sm}){
+                display: flex;
+                flex-direction: column;
+                height: fit-content;
+                gap: 50px;
+
+                div.logo {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 42px;
+                    line-height: 0.5;
+
+                    span.logo-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        span.logo-tagline {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            line-height: 1;
+
+                            p {
+                                font-size: 13.5px;
+                                margin-top: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+    }
+
+    @media (${Devices.xs}) and (max-width: ${breakpoints.sm}){
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 50px;
     }
 `
 
@@ -84,5 +154,12 @@ export const FooterLinks = styled.ul`
             letter-spacing: 0.25px;
             text-decoration: underline 2px solid ${Colors['accent-200']};
         }
+    }
+
+    @media (${Devices.xs}) and (max-width: ${breakpoints.sm}){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 `
