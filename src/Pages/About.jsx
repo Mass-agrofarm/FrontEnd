@@ -105,7 +105,7 @@ function About () {
 
         <div className="faq-img">
           <FlexDiv>
-            <img style={{ width: '400px', height: '250px', borderRadius: '15px' }} src="https://fakeimg.pl/353x252/c5c5c5/959595?text=Mars+AgroFarm&font=museo&font_size=24&retina=1"/>
+            <img src="https://fakeimg.pl/353x252/c5c5c5/959595?text=Mars+AgroFarm&font=museo&font_size=24&retina=1"/>
           </FlexDiv>
         </div>
 

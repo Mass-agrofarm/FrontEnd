@@ -81,7 +81,7 @@ export const StoryLineSection = styled.section`
 //* end storyline section.
 
 
-
+//* Tagline.
 export const TagLine = styled.span`
     margin: 50px 0px;
 
@@ -105,8 +105,10 @@ export const TagLine = styled.span`
         }
     }
 `
+//* end tagline.
 
 
+//* Mission & values.
 export const EthosSection = styled.section`
     display: flex;
     justify-content: center;
@@ -186,7 +188,10 @@ export const EthosSection = styled.section`
             }
     }
 `
+//* end mission & vision.
 
+
+//* FAQ
 export const FaqSection = styled.section`
     display: flex;
     flex-direction: row;
@@ -236,5 +241,19 @@ export const FaqSection = styled.section`
                 }
             }
         }
+
+    }
+    div.faq-img {
+        div img {
+            max-width: 400px;
+            max-height: 285.53px;
+            border-radius: 15px;
+
+            @media (max-width: ${breakpoints.md}){
+                width: 350px;
+                height: 262.53px;
+            }
+        }
     }
 `
+//* end FAQ

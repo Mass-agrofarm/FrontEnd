@@ -1,4 +1,5 @@
 // Components
+import { breakpoints } from '@/GlobalStyles/Styles';
 import { FlexDiv } from './StyledComponents/StyledContainers'
 import styled from 'styled-components';
 
@@ -7,6 +8,9 @@ const DividerLine = styled.div`
     border: 1px solid #ccc;
 
     /* Add media Queries. */
+    @media (max-width: ${breakpoints.md}) {
+      width: 230px;
+    }
 `
 
 function Divider (){

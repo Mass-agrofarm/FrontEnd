@@ -114,7 +114,7 @@ export const FooterSection = styled.section`
                             line-height: 1;
 
                             p {
-                                font-size: 13.5px;
+                                font-size: 11px;
                                 margin-top: 22px;
                             }
                         }
