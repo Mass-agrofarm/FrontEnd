@@ -38,7 +38,7 @@ export const OuterContainer = styled.div`
     padding: 0;
 `
 
-export const InnerContainer = styled.div`
+export const MenuContainer = styled.div`
     /* margin-right: 15px; */
     padding: 12.59px;
     display: flex;

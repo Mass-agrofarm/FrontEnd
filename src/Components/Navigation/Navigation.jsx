@@ -6,7 +6,7 @@ import { useState } from 'react';
 // import { NavBar, InnerContainer } from '@components/StyledComponents/StyledContainers';
 import Logo from '@assets/logo.svg';
 import { LogoImage } from '@components/StyledComponents/StyledElements';
-import { NavBar, LogoLink, InnerContainer, HamburgerMenu } from '@components/Navigation/StyledContainers';
+import { NavBar, LogoLink, MenuContainer, HamburgerMenu } from '@components/Navigation/StyledContainers';
 
 
 const Navigation = () => {
@@ -26,12 +26,12 @@ const Navigation = () => {
           <span />
         </HamburgerMenu>
         
-        <InnerContainer isOpen={isOpen}>
+        <MenuContainer isOpen={isOpen}>
             <Link onClick={() => setIsOpen(!isOpen)} to="/">Home</Link>
             <Link onClick={() => setIsOpen(!isOpen)} to="/about">About Us</Link>
             <Link onClick={() => setIsOpen(!isOpen)} to="/products">Products</Link>
             <Link onClick={() => setIsOpen(!isOpen)} to="/contacts">Contact us</Link>
-        </InnerContainer>
+        </MenuContainer>
     </NavBar>
   );
 }
