@@ -2,7 +2,6 @@
 import React from "react";
 
 // Importing styles and styled components
-import "./homeStyle.css";
 import { AbsoluteDiv, HeroSection } from "./StyledContainers";
 
 // Assets
