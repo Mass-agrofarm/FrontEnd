@@ -27,7 +27,7 @@ const ProductCards = ({ data }) => {
             <div className="product-bottom">
               <P className="product-description">{product.description}</P>
               <div className="product-enquire-button">
-                <button className="product-button">Enquire</button>
+                <a href={`https://wa.me/254712519486?text=Hey%20there%2C%20I'd%20like%20to%20ask%20more%20about%20${product.name}%20as%20advertised%20on%20your%20site.`} target='_blank' className="product-button">Enquire</a>
               </div>
             </div>
           </div>
