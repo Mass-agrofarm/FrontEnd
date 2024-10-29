@@ -1,70 +1,83 @@
-.cards-container{
-    gap: 30px;
-}
-
-
-.product-img{
-    width: 258px;
-    height: 168px;
-    border-radius: 15px 15px 0px 0px;
-    -webkit-border-radius: 15px 15px 0px 0px;
-    -moz-border-radius: 15px 15px 0px 0px;
-    -ms-border-radius: 15px 15px 0px 0px;
-    -o-border-radius: 15px 15px 0px 0px;
-}
-
-
-.product-card{
-    /*minimize cards*/
-    width: 259px;
-    height: 438px;
-    background-color: rgb(245, 245, 245);
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(30px, 4vw, 50px);  /* Dynamic gap based on viewport width */
+    justify-content: center;
+  }
+  
+  /* Product image styling with dynamic width */
+  .product-img {
+    width: clamp(300px, 21.5vw, 250px);
+    height: 250px;  /* Let the height adjust proportionally */
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  
+  /* Product card with improved layout */
+  .product-card {
+    width: clamp(300px, 21.5vw, 250px);
+    height: fit-content;  /* Let the card height be dynamic */
+    background-color: var(--white-smoke);
     color: black;
-    padding: 5px;
-    box-shadow: -0.9px 0.9px 3px rgba(0,0,0,0.6);
+    padding-bottom: 15px;  /* Increased padding for better spacing*/
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
     border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-}
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Shadow grows on hover */
+  }
 
-.product-name{
+
+  /* Product name alignment */
+  .product-name {
     padding-left: 5px;
-    margin: 0px auto;
-}
-
-.product-description{
-    margin: 5px auto;
-}
-
-.product-bottom{
-    padding:0px 0px 15px 15px;
-    justify-content: justify;
-}
-
-.product-button {
-    margin: 0px 0px 0px 0px;
-    padding: 8px 44.16px;
+    color: var(--pigment-green);
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 26px;
+    font-size: clamp(16px, 2vw, 18px);
+    line-height: 1.25;
+  }
+  
+  /* Product description with dynamic margin */
+  .product-description {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: clamp(14px, 1.8vw, 16px);
+    text-align: left;
+    line-height: 1.25;
+  }
+  
+  /* Product bottom padding */
+  .product-bottom {
+    padding: 0px 15px;
+  }
+  
+  /* Button styling */
+  .product-button {
+    margin: 0;
+    padding: clamp(6px, 1.5vw, 8px) clamp(20px, 5vw, 44px);  /* Dynamic padding */
     background-color: silver;
-    box-shadow: -0.9px 0.9px 3px rgba(0,0,0,0.6);
-    transition: all 0.04s ease-in-out;
-    -webkit-transition: all 0.04s ease-in-out;
-    -moz-transition: all 0.04s ease-in-out;
-    -ms-transition: all 0.04s ease-in-out;
-    -o-transition: all 0.04s ease-in-out;
-}
-
-.product-button:hover {
-    scale: 1.05;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);  /* Subtle button shadow */
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .product-button:hover {
+    transform: scale(1.05);  /* scaling effect */
     color: aliceblue;
     background-color: rgb(145, 145, 145);
     letter-spacing: 0.6px;
-}
-
-.product-enquire-button{
+  }
+  
+  /* Center the button inside the card */
+  .product-enquire-button {
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 100%;
-}
+  }

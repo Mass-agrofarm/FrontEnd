@@ -1,26 +1,40 @@
+/* eslint-disable react/prop-types */
 // eslint-disable-next-line no-unused-vars
-import React , {useState, Suspense} from 'react';
+import React, { Suspense } from 'react';
 import './productStyles.css';
 import { P } from '../StyledComponents/StyledElements';
 
+const ProductCards = ({ data }) => {
+  // Ensure that 'data' and 'data.products' exist before trying to map over them
+  if (!data || !Array.isArray(data.products)) {
+    return <div>No products available</div>; // Fallback message if data is unavailable
+  }
 
-const ProductCards = () => {
+  
   return (
     <div className="cards-container">
-          <div className="product-card">
+      {data.products.map((product) => {
+        return (
+          <div className="product-card" key={product.id}>
             <div className="product-top">
-              <img className='product-img' src='https://fakeimg.pl/353x252/c5c5c5/959595?text=Mars+AgroFarm+Product&font=museo&font_size=24&retina=1' alt='Mars Agro farm product'/>
-              <h3 className='product-name'>product name.</h3>
+              <img
+                className="product-img"
+                src={product.image}
+                alt={product.name}
+              />
+              <h3 className="product-name">{product.name}</h3>
             </div>
-            <div className='product-bottom'>
-              <P className='product-description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem reprehenderit illum numquam. Eum quaerat sit laboriosam inventore laborum distinctio beatae nesciunt quibusdam</P>
+            <div className="product-bottom">
+              <P className="product-description">{product.description}</P>
               <div className="product-enquire-button">
                 <button className="product-button">Enquire</button>
               </div>
             </div>
           </div>
+        );
+      })}
     </div>
-  )
+  );
 };
 
-export default ProductCards
+export default ProductCards;

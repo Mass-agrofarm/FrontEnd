@@ -6,6 +6,8 @@
         "@/*": ["src/*"],
         "@components/*": ["src/Components/*"],
         "@assets/*": ["src/assets/*"],
+        "@assets/images/*": ["src/assets/Images/*"],
+        // "@data/*": ["src/Data/*"],
       }
     }
   }

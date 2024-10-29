@@ -1,0 +1,66 @@
+{
+    "testimonials": [
+        {
+            "id": 1,
+            "name": "— James M. —",
+            "occupation": "Smallholder Farmer",
+            "testimony": "Since I started using the chopper from Mars Agrofarm, my efficiency has skyrocketed! Harvesting and processing my crops is now quicker and easier, allowing me to focus on expanding my farm. The quality of the equipment is outstanding, and I couldn't be happier with my decision to invest in their products."
+        },
+
+        {
+            "id": 2,
+            "name": "— Aisha K. —",
+            "occupation": "Small-Scale Vendor",
+            "testimony": "The Mama Mboga kiosk has truly changed my life. It provides a safe and comfortable space for me to sell my produce while ensuring my children are nearby. The design is not only practical but also dignified, which has made a significant difference in how I run my business. Thank you, Mars Agrofarm, for empowering women like me!"
+        },
+
+        {
+            "id": 3,
+            "name": "— Samuel T. —",
+            "occupation": "Local Farmer",
+            "testimony": "I was struggling with low yields until I discovered Mars Agrofarm's grain thresher. It has transformed the way I work and helped me save time and money. The team was incredibly supportive throughout the process, providing training and maintenance tips that have been invaluable. I highly recommend their products to any farmer looking to improve their productivity!"
+        },
+
+        {
+            "id": 4,
+            "name": "— Rebecca N. —",
+            "occupation": "Smallholder Farmer",
+            "testimony": "Using the poshomill from Mars Agrofarm has made a world of difference for my family. We can now process our maize quickly and efficiently, ensuring we have fresh flour at all times. The quality of the mill is exceptional, and I appreciate the support I received during installation."
+        },
+
+        {
+            "id": 5,
+            "name": "— Peter J. —",
+            "occupation": "Commercial Farmer",
+            "testimony": "I can't thank Mars Agrofarm enough for their innovative solutions. The agricultural equipment I purchased has not only improved my yields but also reduced my workload significantly. Their commitment to quality and customer service is unmatched!"
+        },
+
+        {
+            "id": 6,
+            "name": "— Grace W. —",
+            "occupation": "Small-Scale Vendor",
+            "testimony": "The Mama Mboga kiosk is a game-changer for women vendors in our community. It gives us a professional space to sell our goods while ensuring safety for our children. I feel empowered and more confident in my business thanks to Mars Agrofarm!"
+        },
+
+        {
+            "id": 7,
+            "name": "— David O. —",
+            "occupation": "Eco-Conscious Farmer",
+            "testimony": "Since partnering with Mars Agrofarm, my farming practices have become much more sustainable. Their focus on environmentally-friendly solutions aligns perfectly with my goals as a farmer. I highly recommend their products to anyone looking to make a positive impact!"
+        },
+
+        {
+            "id": 8,
+            "name": "— Lucy A. —",
+            "occupation": "Smallholder Farmer",
+            "testimony": "I was initially hesitant to invest in new equipment, but after seeing the results from Mars Agrofarm's grain thresher, I'm convinced it was the right choice. My productivity has doubled, and I'm now able to sell more produce at the market!"
+        },
+
+        {
+            "id": 9,
+            "name": "— Michael K. —",
+            "occupation": "Local Farmer",
+            "testimony": "The training and support provided by Mars Agrofarm have been invaluable. Not only did I receive high-quality equipment, but the team also guided me on how to maximize its use. My farming operation is thriving, and I owe it all to them!"
+        }
+    ]
+}

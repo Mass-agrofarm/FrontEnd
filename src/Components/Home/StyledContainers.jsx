@@ -6,7 +6,7 @@ import { Devices, breakpoints } from "@/GlobalStyles/Styles";
 
 
 //* assets.
-import mamaMboga from '@assets/mama-mboga.jpg';
+import mamaMboga from '@assets/Images/mama-mboga.jpg';
 
 
 
@@ -99,6 +99,8 @@ export const HeroSection = styled.section`
         .hero-img{
             height: 100vh;
             width: 100%;
+            object-fit: cover;
+            overflow: hidden;
         }
 
         .overlay{
@@ -353,6 +355,8 @@ export const TestimonialsSection = styled.section`
 
     div h2 {
         margin: 50px 0px 0px 0px;
+        font-size: 42px;
+        color: ${Colors["accent-200"]};
     }
 
     div.review-cards {
@@ -383,6 +387,21 @@ export const TestimonialsSection = styled.section`
             }
         }
     }
+
+    /* Mobile-first design: flex-column for smaller screens */
+  @media (${Devices.xs}) {
+    height: fit-content;
+  }
+
+  /* For larger screens */
+  @media (${Devices.sm}) {
+    height: fit-content;
+  }
+
+  /* For wider screens and desktops */
+  @media (${Devices.md}) {
+    height: fit-content;
+  }
 `
 
 //* end testimonials.

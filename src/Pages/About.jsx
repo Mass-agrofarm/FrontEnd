@@ -6,7 +6,7 @@ import { P } from "@components/StyledComponents/StyledElements";
 import { Header, StoryLineSection, TagLine, EthosSection, FaqSection } from "@/Components/About/StyledComponents";
 
 // assets.
-import mamaMboga from "@assets/mama-mboga.jpg";
+import mamaMboga from "@assets/Images/mama-mboga.jpg";
 
 
 function About () {
