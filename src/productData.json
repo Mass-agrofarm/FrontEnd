@@ -9,7 +9,7 @@
 
         "description": "The Poshomill is designed for efficiency and durability, enabling smallholder farmers to grind maize and other grains into flour easily. With its robust construction and user-friendly design, it enhances food security by providing fresh, quality flour for households and local markets.",
 
-        "image": "public/roller-mill.jpg"
+        "image": "/roller-mill.jpg"
     },
 
     {
@@ -19,7 +19,7 @@
 
         "description": "Our Feed Mixers are essential for livestock farmers, allowing them to blend various feed ingredients uniformly. This equipment promotes optimal nutrition for animals, leading to healthier livestock and improved milk and meat production, ultimately increasing farmers' profitability.",
 
-        "image": "public/feed-mixer-sm.jpg"
+        "image": "/feed-mixer-sm.jpg"
     },
 
     {
@@ -29,7 +29,7 @@
 
         "description": "Feed Crushers are vital for preparing animal feed by crushing grains and other ingredients into manageable sizes. This machine enhances feed digestibility, ensuring livestock receive the best nutrition while saving farmers time and effort in feed preparation.",
 
-        "image": "public/feed-crusher.jpg"
+        "image": "/feed-crusher.jpg"
     },
 
     {
@@ -39,7 +39,7 @@
 
         "description": "The Mama Mboga Kiosk is a modern, solar-powered vending solution for small-scale vegetable vendors. It offers privacy for breastfeeding mothers and a safe space for toddlers, transforming the traditional market experience while supporting women's entrepreneurship in agriculture.",
 
-        "image": "public/mama-mboga-kiosk.jpg"
+        "image": "/mama-mboga-kiosk.jpg"
     },
 
     {
@@ -49,7 +49,7 @@
 
         "description": "Our Fodder Chopper is an essential tool for livestock farmers, designed to efficiently chop grass and other fodder into smaller sizes for better feed utilization. This equipment enhances livestock health, improves digestion, and maximizes feed efficiency.",
 
-        "image": "public/foder-chopper.jpg"
+        "image": "/foder-chopper.jpg"
     },
 
     {
@@ -59,7 +59,7 @@
 
         "description": "Chuff-cutters are perfect for cutting and processing various agricultural products like sugarcane and green fodder. This machine streamlines preparation, ensuring that farmers can quickly provide quality feed to their livestock, thus improving productivity.",
 
-        "image": "public/chuff-cutter.jpg"
+        "image": "/chuff-cutter.jpg"
     },
 
     {
@@ -69,7 +69,7 @@
 
         "description": "The Maize Sheller is a must-have for maize farmers, designed to remove kernels from cobs efficiently. It significantly reduces post-harvest losses, saves labor, and allows for quicker processing, ensuring farmers get the best value from their harvest.",
 
-        "image": "public/maize-sheller.jpg"
+        "image": "/maize-sheller.jpg"
     },
 
     {
@@ -79,7 +79,7 @@
 
         "description": "Our Grain Threshers efficiently separate grains from straw and chaff, maximizing harvest yields while minimizing costs. Built for durability and ease of use, they provide long-lasting performance, making them an essential asset for every farmer looking to boost productivity.",
 
-        "image": "public/grain-thresher.jpg"
+        "image": "/grain-thresher.jpg"
     },
 
     {
@@ -89,7 +89,7 @@
 
         "description": "We offer a range of Value Addition Equipment that enables farmers to process raw agricultural products into market-ready goods. This machinery increases profitability by enhancing product quality and diversifying income streams for farmers.",
 
-        "image": "public/spare-motors.jpg"
+        "image": "/spare-motors.jpg"
     },
 
     {
@@ -99,7 +99,7 @@
 
         "description": "Our Mini Tractors are designed for small-scale farmers, offering powerful performance in a compact size. They simplify various farming tasks, from plowing to transportation, making farming more efficient and accessible for those with limited resources.",
 
-        "image": "public/kubota-tractor.jpg"
+        "image": "/kubota-tractor.jpg"
     },
 
     {
@@ -109,7 +109,7 @@
 
         "description": "We provide high-quality spare parts for various agricultural equipment, ensuring farmers can maintain their machinery for optimal performance. Our reliable parts help reduce downtime and extend the life of essential farming tools.",
 
-        "image": "public/spare-motors.jpg"
+        "image": "/spare-motors.jpg"
     },
 
     {
@@ -119,7 +119,7 @@
 
         "description": "Our Roller Mill is built for precision and efficiency, allowing smallholder farmers to grind grains into flour easily. Its advanced design saves energy and ensures consistent flour quality, boosting productivity and profits for households and local markets.",
 
-        "image": "public/roller-mill.jpg"
+        "image": "/roller-mill.jpg"
     }
     
 ]
