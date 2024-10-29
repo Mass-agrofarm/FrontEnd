@@ -9,7 +9,7 @@
 
         "description": "The Poshomill is designed for efficiency and durability, enabling smallholder farmers to grind maize and other grains into flour easily. With its robust construction and user-friendly design, it enhances food security by providing fresh, quality flour for households and local markets.",
 
-        "image": "@assets/Images/roller-mill.jpg"
+        "image": "public/images/roller-mill.jpg"
     },
 
     {
