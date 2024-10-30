@@ -15,6 +15,19 @@ export const FooterSection = styled.section`
     background-color: ${Colors['background-300']};
     backdrop-filter: blur(8px);
 
+    @media (${Devices.xs}) and (max-width: ${breakpoints.sm}){
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 50px;
+    }
+    @media (${Devices.sm}) and (max-width: 1024px){
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 50px;
+    }
+
     h4 {
         color: ${Colors['rich-black']};
     }
@@ -26,6 +39,7 @@ export const FooterSection = styled.section`
         justify-content: space-between;
         /* padding-top: 96px; */
         /* padding-bottom: 96px; */
+        width: 100%;
         gap: 90px;
 
         div.logo {
@@ -87,7 +101,8 @@ export const FooterSection = styled.section`
             }
         }
 
-        @media (${Devices.xs}) and (max-width: ${breakpoints.sm}){
+        /* div.shell -> xs */
+        @media (${Devices.xs}){
                 display: flex;
                 flex-direction: column;
                 height: fit-content;
@@ -118,28 +133,114 @@ export const FooterSection = styled.section`
                                 margin-top: 22px;
                             }
                         }
+                        /* tagline */
                     }
+                    /* logo text */
                 }
+                /* div.logo */
             }
+            /* div.shell -> xs */
+
+            /* div.shell -> sm */
+        @media (${Devices.sm}){
+                display: flex;
+                flex-direction: column;
+                height: fit-content;
+                width: 100%;
+
+                div.logo {
+                    display: flex;
+                    flex-direction: column;
+
+                    span.logo-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        span.logo-tagline {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            line-height: 1;
+                        }
+                        /* tagline */
+                    }
+                    /* logo text */
+                }
+                /* div.logo */
+            }
+            /* div.shell -> sm */
+
+            /* div.shell -> lg */
+        @media (${Devices.lg}){
+                display: flex;
+                flex-direction: row;
+                height: fit-content;
+                padding: 50px;
+                gap: 50px;
+
+                div.logo {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+
+                    span.logo-text {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+
+                        span.logo-tagline {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            line-height: 1;
+                        }
+                        /* tagline */
+                    }
+                    /* logo text */
+                }
+                /* div.logo */
+            }
+            /* div.shell -> lg */
     }
 
-    @media (${Devices.xs}) and (max-width: ${breakpoints.sm}){
-        display: flex;
-        flex-direction: column;
-        height: fit-content;
-        padding: 50px;
-    }
 `
 
 
-// export const LogoDiv = styled.div`
-    
-// `
+export const FooterLinksDiv = styled.div`
+    gap: 90px;
+    /* Mobile-first design: flex-column for smaller screens */
+    @media (${Devices.xs}) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* For larger screens */
+    @media (${Devices.sm}) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    /* For wider screens and desktops */
+    @media (${Devices.md}) {
+        flex-direction: row;
+        gap: 90px;
+    }
+`
 
 
 export const FooterLinks = styled.ul`
     display: flex;
     flex-direction: column;
+    margin-top: 0;
     list-style: none;
     padding: 0;
     width: 96px;
@@ -156,10 +257,26 @@ export const FooterLinks = styled.ul`
         }
     }
 
-    @media (${Devices.xs}) and (max-width: ${breakpoints.sm}){
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+/* Mobile-first design: flex-column for smaller screens */
+@media (${Devices.xs}) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For larger screens */
+@media (${Devices.sm}) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* For wider screens and desktops */
+@media (${Devices.md}) {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 `
