@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 
 // Components.
-import { NameFields, ContactFields, TextField } from '@components/Contact/StyledContainers';
+import { StyledForm, NameFields, ContactFields, TextField } from '@components/Contact/StyledContainers';
 import { FlexDiv } from '@components/StyledComponents/StyledContainers';
 
 
@@ -96,8 +96,7 @@ const Form = () => {
   return (
     <>
     {/* Todo: add state management and send email after hitting send */}
-      <form style={{ width: '100%' }}>
-
+      <StyledForm>
         <div>
           <label>Name *</label>
           <NameFields>
@@ -160,7 +159,7 @@ const Form = () => {
         </TextField>
 
 
-    </form>
+    </StyledForm>
     </>
   )
 }

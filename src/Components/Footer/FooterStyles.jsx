@@ -176,9 +176,11 @@ export const FooterSection = styled.section`
         @media (${Devices.lg}){
                 display: flex;
                 flex-direction: row;
+                justify-content: center;
+                align-items: center;
                 height: fit-content;
                 padding: 50px;
-                gap: 50px;
+                gap: 90px;
 
                 div.logo {
                     display: flex;

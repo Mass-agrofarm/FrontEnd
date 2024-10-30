@@ -1,89 +1,19 @@
-// dependencies
-import styled from 'styled-components';
-
-
 // components
 import { FlexDiv } from '../Components/StyledComponents/StyledContainers';
+
 // import { ContactBanner, ContactSection, MapFooter } from '../Components/Contact/StyledContainers.jsx';
 import Form from '../Components/Form';
 import { P } from '../Components/StyledComponents/StyledElements';
-
-
-
-//Todo: contact banner for the contact page.
-
-const ContactSection = styled.section`
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    margin: 50px;
-    height: 100vh;
-    /* width: fit-content; */
-`
-
-const ContactBanner = styled(FlexDiv)`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 350px;
-    height: 100%;
-    margin: 0px 50px;
-    background-color: whitesmoke;
-    color: black;
-    padding: 25px 50px;
-    border-radius: 15px;
-    line-height: 1.3 ;
-
-    > h3{
-        font-size: 21px;
-        margin: 0;
-    }
-
-    > p {
-      margin: 5px 0px 15px 0px;
-      font-weight: 400;
-
-      > strong {
-        font-weight: 600;
-        font-size: 18px;
-      }
-    }
-
-    > span > h4{
-        font-size: 18px;
-        margin: 0;
-    }
-
-    > span + span {
-        margin-top: 15px;
-    }
-
-
-    //! mediaQueries.
-    /* @media (min-width: 768px) {
-        
-    } */
-`
-
-const MapFooter = styled.footer`
-    padding: 5px;
-
-    @media (max-width: 768px){
-        padding: 2px;
-    }
-`
-
+import { ContactBanner, ContactSection, FormDiv, HeaderContainer, MapFooter } from '@/Components/Contact/StyledContainers';
 
 
 
 function Contacts (){
   return (
     <>
-        <FlexDiv style={{ justifyContent: 'center', backgroundColor: 'whitesmoke', color: '#213547'}}>
+        <HeaderContainer>
           <h1>Contact Us</h1>
-        </FlexDiv>
+        </HeaderContainer>
 
         {/* banner column */}
         <ContactSection>
@@ -115,12 +45,13 @@ function Contacts (){
           </ContactBanner>
 
           {/* contact form */}
-          <FlexDiv style={{ flexDirection: 'column' }}>
+          <FormDiv>
             <FlexDiv style={{ justifyContent: 'center' }}>
               <h2 style={{ marginBottom: '12px' }}>Send Us An Email.</h2>
             </FlexDiv>
+            {/* Contact Form */}
             <Form />
-          </FlexDiv>
+          </FormDiv>
           
         </ContactSection>
 
