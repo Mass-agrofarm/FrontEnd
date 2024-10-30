@@ -24,6 +24,7 @@ export const ContactSection = styled.section`
     align-items: center;
     gap: 100px;
     margin: 50px;
+    margin-top: 0;
     height: 100vh;
     /* width: fit-content; */
 
