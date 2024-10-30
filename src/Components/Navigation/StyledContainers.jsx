@@ -83,13 +83,15 @@ export const LogoLink = styled(Link)`
     line-height: 1.05;
 
     span.logo-pop {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         margin-right: 5px;
+        font-weight: 700;
         color: ${Colors["rich-black"]};
     }
 
     span.logo-pop-accent {
         font-size: 1.5rem;
+        font-weight: 700;
         color: ${Colors["accent-200"]};
     }
 
