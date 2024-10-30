@@ -343,6 +343,20 @@ export const FeaturedProductsSection = styled.section`
             margin-top: 25px;
         }
     }
+/* Mobile-first design: flex-column for smaller screens */
+@media (${Devices.xs}) {
+    height: fit-content;
+}
+
+/* For larger screens */
+@media (${Devices.sm}) {
+    height: fit-content;
+}
+
+/* For wider screens and desktops */
+@media (${Devices.md}) {
+    height: fit-content;
+}
 `
 //* end featured.
 
