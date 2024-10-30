@@ -61,7 +61,7 @@
   .product-button {
     margin: 0;
     padding: clamp(6px, 1.5vw, 8px) clamp(20px, 5vw, 44px);  /* Dynamic padding */
-    color: var(--rich-black);
+    color: var(--pigment-green);
     background-color: silver;
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);  /* Subtle button shadow */
