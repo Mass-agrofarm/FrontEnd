@@ -4,8 +4,8 @@ import { useState } from 'react';
 
 // components.
 // import { NavBar, InnerContainer } from '@components/StyledComponents/StyledContainers';
-import Logo from '@assets/logo.svg';
-import { LogoImage } from '@components/StyledComponents/StyledElements';
+// import Logo from '@assets/logo.svg';
+// import { LogoImage } from '@components/StyledComponents/StyledElements';
 import { NavBar, LogoLink, MenuContainer, HamburgerMenu } from '@components/Navigation/StyledContainers';
 
 
@@ -16,7 +16,9 @@ const Navigation = () => {
     <NavBar>
         <>
             <LogoLink to="/" >
-              <LogoImage src={Logo} alt="Mars AgroFarm logo" />
+              <span className='logo-pop'>Mars</span>
+              {/* <br/> */}
+              <span className='logo-pop-accent'>Agrofarm</span>
             </LogoLink>
         </>
 

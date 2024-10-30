@@ -79,12 +79,23 @@ export const MenuContainer = styled.div`
 
 export const LogoLink = styled(Link)`
     padding: 0;
-    width: 40px;
-    height: 40px;
     border: none;
+    line-height: 1.05;
+
+    span.logo-pop {
+        font-size: 1.5rem;
+        margin-right: 5px;
+        color: ${Colors["rich-black"]};
+    }
+
+    span.logo-pop-accent {
+        font-size: 1.5rem;
+        color: ${Colors["accent-200"]};
+    }
 
     &:hover{
       border-bottom: none;
+      font-weight: 600;
     }
 `
 
