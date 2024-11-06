@@ -9,7 +9,7 @@
 
         "description": "The Poshomill is designed for efficiency and durability, enabling smallholder farmers to grind maize and other grains into flour easily. With its robust construction and user-friendly design, it enhances food security by providing fresh, quality flour for households and local markets.",
 
-        "image": "/roller-mill.jpg"
+        "image": "/poshomill.jpg"
     },
 
     {
@@ -75,11 +75,11 @@
     {
         "id": 8, 
         
-        "name": "Grain Threshers",
+        "name": "Hay Balers",
 
-        "description": "Our Grain Threshers efficiently separate grains from straw and chaff, maximizing harvest yields while minimizing costs. Built for durability and ease of use, they provide long-lasting performance, making them an essential asset for every farmer looking to boost productivity.",
+        "description": "Our hay baler, offered in hydraulic and manual models, streamlines fodder management for small-scale farmers. It creates uniform, compact bales for easy storage and transport, reducing time and labor while supporting efficient, quality-driven farming—all at an affordable price.",
 
-        "image": "/grain-thresher.jpg"
+        "image": "/hay-baler.jpg"
     },
 
     {
@@ -105,7 +105,7 @@
     {
         "id": 11, 
         
-        "name": "Spare Parts for Agricultural Equipment",
+        "name": "Spare Parts for Equipments",
 
         "description": "We provide high-quality spare parts for various agricultural equipment, ensuring farmers can maintain their machinery for optimal performance. Our reliable parts help reduce downtime and extend the life of essential farming tools.",
 
