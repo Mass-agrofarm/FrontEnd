@@ -36,7 +36,7 @@ function Home () {
 
   /**
    * @brief Fetches and processes product data on component mount.
-   *        Slices and reverses a range of products to display.
+   *        Slices a range of products to display.
    *        Also fetches customer testimonials data.
    */
   useEffect(() => {
@@ -44,7 +44,7 @@ function Home () {
       // Check if productsData and customerTesimonials have the expected structure
       if (productsData && productsData.products && customerTesimonials) {
 
-        // Slice and reverse the product data to display only a specified range
+        // Slice the featured product data to display only a specified range
         const slicedProducts = productsData.featured.slice(0, 4);
         // Slice and reverse the product data to display only a specified range
         const slicedTestimonials = customerTesimonials.testimonials.slice(5, 8);
