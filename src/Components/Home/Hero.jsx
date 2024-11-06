@@ -21,7 +21,7 @@ function Hero (){
         {/* Image Container */}
         {/* Holds the main hero image with alt description */}
         <div className='img-container'>
-          <img className='hero-img' src={miniTractor} alt="mama mboga at work" />
+          <img className='hero-img' src={miniTractor} alt="hero image" />
         </div>
 
         {/* Content Container */}

@@ -45,7 +45,7 @@ function Home () {
       if (productsData && productsData.products && customerTesimonials) {
 
         // Slice and reverse the product data to display only a specified range
-        const slicedProducts = productsData.products.slice(1, 4);
+        const slicedProducts = productsData.featured.slice(0, 4);
         // Slice and reverse the product data to display only a specified range
         const slicedTestimonials = customerTesimonials.testimonials.slice(5, 8);
 
