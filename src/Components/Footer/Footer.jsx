@@ -45,7 +45,7 @@ function Footer () {
               <div>
                 <h4 style={{ marginBottom: '0', marginTop: '0' }}>Socials</h4>
                 <FooterLinks>
-                  <a href="/https://facebook.com" target='_blank'>facebook</a>
+                  <a href="https://facebook.com" target='_blank'>facebook</a>
                   <a href="https://x.com" target='_blank'>twitter</a>
                   <a href="https://tiktok.com" target='_blank'>tiktok</a>
                   <a href="https://insagram.com" target='_blank'>instagram</a>
