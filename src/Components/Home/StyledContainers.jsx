@@ -296,7 +296,6 @@ export const MainSection = styled.section`
 export const FeaturedProductsSection = styled.section`
     display: flex;
     flex-direction: column;
-    height: 105vh;
     margin-bottom: 50px;
     background-color: ${Colors["background-200"]};
 
@@ -339,13 +338,16 @@ export const FeaturedProductsSection = styled.section`
             }
         }
 
-        div.link {
-            margin-top: 25px;
-        }
+        
     }
 /* Mobile-first design: flex-column for smaller screens */
 @media (${Devices.xs}) {
     height: fit-content;
+
+    div.link {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
 }
 
 /* For larger screens */
@@ -410,6 +412,11 @@ export const TestimonialsSection = styled.section`
   /* For larger screens */
   @media (${Devices.sm}) {
     height: fit-content;
+    div.title{
+        p {
+            padding: 0px 50px 0px 50px;
+        }
+    }
   }
 
   /* For wider screens and desktops */

@@ -29,7 +29,7 @@
 
         "description": "Feed Crushers are vital for preparing animal feed by crushing grains and other ingredients into manageable sizes. This machine enhances feed digestibility, ensuring livestock receive the best nutrition while saving farmers time and effort in feed preparation.",
 
-        "image": "/feed-crusher.jpg"
+        "image": "/feed-crusher-main.jpg"
     },
 
     {
@@ -80,16 +80,6 @@
         "description": "Our hay baler, offered in hydraulic and manual models, streamlines fodder management for small-scale farmers. It creates uniform, compact bales for easy storage and transport, reducing time and labor while supporting efficient, quality-driven farming—all at an affordable price.",
 
         "image": "/hay-baler.jpg"
-    },
-
-    {
-        "id": 9, 
-        
-        "name": "Value Addition Equipment",
-
-        "description": "We offer a range of Value Addition Equipment that enables farmers to process raw agricultural products into market-ready goods. This machinery increases profitability by enhancing product quality and diversifying income streams for farmers.",
-
-        "image": "/spare-motors.jpg"
     },
 
     {
