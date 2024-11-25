@@ -110,6 +110,26 @@
         "description": "Our Roller Mill is built for precision and efficiency, allowing smallholder farmers to grind grains into flour easily. Its advanced design saves energy and ensures consistent flour quality, boosting productivity and profits for households and local markets.",
 
         "image": "/roller-mill.jpg"
+    },
+
+    {
+        "id": 13, 
+        
+        "name": "Brush Cutters",
+
+        "description": "Our durable brush cutters make land clearing effortless, tackling tough weeds, grass, and overgrown vegetation with ease. Perfect for small-scale farmers and property owners, they offer adjustable features and reliable performance, saving time while keeping your land productive.",
+
+        "image": "/brush-cutter.jpg"
+    },
+
+    {
+        "id": 14, 
+        
+        "name": "Milking Machines",
+
+        "description": "Our advanced milking machines offer efficient, hygienic solutions for dairy farmers, maximizing milk yield while ensuring animal comfort. Durable and energy-efficient, they cater to both small and large-scale operations, streamlining productivity and improving milk quality.",
+
+        "image": "/milking-machines.jpg"
     }
     
 ],
