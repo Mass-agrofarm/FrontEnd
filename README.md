@@ -40,7 +40,7 @@ That's it 😂. Congratulations on your build 🔥.
 
 ## Deployment
 
-To deploy this project I have used netlify as the host provider, have [netlify cli](https://developers.netlify.com/cli/) Installed on your machine. More on [netlify cli here](https://cli.netlify.com/).
+To deploy this project I have used netlify as the host provider for demo previews, have [netlify cli](https://developers.netlify.com/cli/) Installed on your machine. More on [netlify cli here](https://cli.netlify.com/).
 
 Now that we have these covered run:
 
@@ -56,5 +56,16 @@ npm run build
 netlify deploy --prod
 ```
 
-Currently the site is live [here](https://marsagrofarm.netlify.app/).
+## Hosting (cPanel)
+After the successful hosting of the site, we have an online presence managed by cPanel over a host provider, the site now is live on the web and accessible. 
+
+If you make changes to the apps files, you'll need to run a build and obtain the dist folder.
+```bash
+npm run build
+```
+Then upload the dist folder to your cPanel hosting provider, make sure to move all the files inside the dist folder to the root of public_html folder. The site will be updated with the new designs.
+
+Any changes that need to be pushed to the site will require manually deleting old files and updating the dist files of the new versions of the app.
+
+Currently the site is live [here](https://www.marsagrofarm.co.ke/).
 
