@@ -1,15 +1,14 @@
 import { Colors } from '@/GlobalStyles/Styles';
-import { useRouteError, Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const ErrorPage = () => {
-  const error = useRouteError(); // Fetch error details (for server-side errors, if any)
-  const status = error?.status || 404; // Default to 404 if no error status is available
-  const message = error?.statusText || "Page Not Found";
-
+    const location = useLocation();
+    let status = 404
+    let message = 'The page: '
   return (
-    <div style={{ textAlign: 'center', padding: '50px' }}>
+    <div style={{ marginTop: '50px', textAlign: 'center', padding: '50px', height: '50vh'}}>
       <h1 style={{ color: `${Colors['accent-200']}` }}>Error {status}</h1>
-      <p>{message}</p>
+      <p>{`${message} (${location.pathname.split('/')[1]}) does not exist!`}</p>
       <Link style={{ color: `${Colors['accent-200']}` }} to={'/'}>Go Back to Home</Link>
     </div>
   );
