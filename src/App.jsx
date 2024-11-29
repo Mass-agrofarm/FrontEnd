@@ -1,17 +1,18 @@
 // Dependancies
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import { OuterContainer } from './Components/StyledComponents/StyledComponents';
+// import { OuterContainer } from '@components/StyledComponents/StyledComponents';
 
 // components
-import Navigation from './Components/Navigation/Navigation';
+import Navigation from '@components/Navigation/Navigation';
 
 // Pages
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Products from './Pages/Products';
-import Contacts from './Pages/Contacts';
-import Footer from './Components/Footer/Footer';
+import Home from '@pages/Home';
+import About from '@pages/About';
+import Products from '@pages/Products';
+import Contacts from '@pages/Contacts';
+import Footer from '@components/Footer/Footer';
+import ErrorPage from '@components/ErrorPages/ErrorPage';
 
 
 
@@ -31,6 +32,7 @@ function App() {
           <Route exact path='/about' element={<About />} />
           <Route exact path='/products' element={<Products />} />
           <Route exact path='/contacts' element={<Contacts />} />
+          <Route path='*' element={<ErrorPage />} />
         </Routes>
         
         {/* Footer */}
