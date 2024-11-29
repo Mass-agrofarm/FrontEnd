@@ -31,3 +31,6 @@ dist-ssr
 
 # environment variables.
 /.env
+/src/generate-sitemap.js
+generate-sitemap.js
+dist.zip
