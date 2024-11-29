@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // components
 import Navigation from '@components/Navigation/Navigation';
+// import { Error }
 
 // Pages
 import Home from '@pages/Home';
@@ -13,6 +14,7 @@ import Products from '@pages/Products';
 import Contacts from '@pages/Contacts';
 import Footer from '@components/Footer/Footer';
 import ErrorPage from '@components/ErrorPages/ErrorPage';
+import ScrollToTop from '@components/ScrollToTop';
 
 
 
@@ -26,7 +28,7 @@ function App() {
       <Router>
         {/* Navigation */}
         <Navigation/>
-        
+        <ScrollToTop />
         <Routes>
           <Route index exact path='/' element={<Home />} />
           <Route exact path='/about' element={<About />} />
